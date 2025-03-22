@@ -1,0 +1,338 @@
+{
+    "flex-layout.col#homeDesktop__heroBanner--category1":{
+        "title": "herroBanner categories row column 1 ",
+        "children": [
+            "image#categories__column1--imageFood",
+            "rich-text#cotegories__column1--textFood"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column1--imageFood":{
+        "title": "heroBanner category1 imagen food",
+        "props": {
+            "src": "assets/img/category/fastfood.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column1--textFood":{
+        "title": "herroBanner category1 text food",
+        "props": {
+            "text": "Food",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category2":{
+        "title": "herroBanner categories row column 2 ",
+        "children": [
+            "image#categories__column2--imageFitness",
+            "rich-text#cotegories__column2--textFitness"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column2--imageFitness":{
+        "title": "heroBanner category2 imagen Fitness",
+        "props": {
+            "src": "assets/img/category/fitness_center.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column2--textFitness":{
+        "title": "herroBanner category2 text food",
+        "props": {
+            "text": "Fitness",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category3":{
+        "title": "herroBanner categories row column 3 ",
+        "children": [
+            "image#categories__column3--imageArtico",
+            "rich-text#cotegories__column3--textArtico"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column3--imageArtico":{
+        "title": "heroBanner category3 imagen Artico",
+        "props": {
+            "src": "assets/img/category/ac_unit.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column3--textArtico":{
+        "title": "herroBanner category3 text artico",
+        "props": {
+            "text": "En el Ártico",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category4":{
+        "title": "herroBanner categories row column 4 ",
+        "children": [
+            "image#categories__column4--imagePoolDay",
+            "rich-text#cotegories__column4--textPoolDay"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column4--imagePoolDay":{
+        "title": "heroBanner category4 imagen PoolDay",
+        "props": {
+            "src": "assets/img/category/Group.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column4--textPoolDay":{
+        "title": "herroBanner category4 text PoolDay",
+        "props": {
+            "text": "Poolday",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category5":{
+        "title": "herroBanner categories row column 5 ",
+        "children": [
+            "image#categories__column5--imageHoteles",
+            "rich-text#cotegories__column5--textHoteles"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column5--imageHoteles":{
+        "title": "heroBanner category5 imagen Hoteles",
+        "props": {
+            "src": "assets/img/category/hotel.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column5--textHoteles":{
+        "title": "herroBanner category5 text Hoteles",
+        "props": {
+            "text": "Hoteles",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category6":{
+        "title": "herroBanner categories row column 6 ",
+        "children": [
+            "image#categories__column6--imageCasas",
+            "rich-text#cotegories__column6--textCasas"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column6--imageCasas":{
+        "title": "heroBanner category6 imagen Casas",
+        "props": {
+            "src": "assets/img/category/house.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column6--textCasas":{
+        "title": "herroBanner category6 text Casas",
+        "props": {
+            "text": "Casas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category7":{
+        "title": "herroBanner categories row column 7 ",
+        "children": [
+            "image#categories__column7--imageNaturales",
+            "rich-text#cotegories__column7--textNaturales"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column7--imageNaturales":{
+        "title": "heroBanner category7 imagen Naturales",
+        "props": {
+            "src": "assets/img/category/spa.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column7--textNaturales":{
+        "title": "herroBanner category7 text Naturales",
+        "props": {
+            "text": "Naturales",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category8":{
+        "title": "herroBanner categories row column 8 ",
+        "children": [
+            "image#categories__column8--imageCloset",
+            "rich-text#cotegories__column8--textCloset"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column8--imageCloset":{
+        "title": "heroBanner category8 imagen Closet",
+        "props": {
+            "src": "assets/img/category/checkroom.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column8--textCloset":{
+        "title": "herroBanner category4 text Closet",
+        "props": {
+            "text": "Closet",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category9":{
+        "title": "herroBanner categories row column 9 ",
+        "children": [
+            "image#categories__column9--imagePlaya",
+            "rich-text#cotegories__column9--textPlaya"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column9--imagePlaya":{
+        "title": "heroBanner category9 imagen Playa",
+        "props": {
+            "src": "assets/img/category/beach_access.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column9--textPlaya":{
+        "title": "herroBanner category9 text Playa",
+        "props": {
+            "text": "Playa",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category10":{
+        "title": "herroBanner categories row column 10 ",
+        "children": [
+            "image#categories__column10--imageAlpinismo",
+            "rich-text#cotegories__column10--textAlpinismo"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column10--imageAlpinismo":{
+        "title": "heroBanner category10 imagen Alpinismo",
+        "props": {
+            "src": "assets/img/category/elderly.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column10--textAlpinismo":{
+        "title": "herroBanner category6 text Casas",
+        "props": {
+            "text": "Alpinismo",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category11":{
+        "title": "herroBanner categories row column 11 ",
+        "children": [
+            "image#categories__column11--imageDelivery",
+            "rich-text#cotegories__column11--textDelivery"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column11--imageDelivery":{
+        "title": "heroBanner category7 imagen Delivery",
+        "props": {
+            "src": "assets/img/category/moped.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column11--textDelivery":{
+        "title": "herroBanner category11 text Delivery",
+        "props": {
+            "text": "Delivery",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    },
+    "flex-layout.col#homeDesktop__heroBanner--category12":{
+        "title": "herroBanner categories row column 12 ",
+        "children": [
+            "image#categories__column12--imageCervezas",
+            "rich-text#cotegories__column12--textCervezas"
+        ],
+        "props": {
+            "blockClass":[
+                "category__column"
+            ]
+        }
+    },
+    "image#categories__column12--imageCervezas":{
+        "title": "heroBanner category12 imagen Cervezas",
+        "props": {
+            "src": "assets/img/category/sports_bar.png",
+            "maxHeight": 20,
+            "maxWidth": 20
+        }
+    },
+    "rich-text#cotegories__column12--textCervezas":{
+        "title": "herroBanner category12 text Cervezas",
+        "props": {
+            "text": "Cervezas",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    //Las categorias que estan en el hero banner las comparten tanto la version desktop como la mobile
+    //por eso se implementa en los componentes globales
+    "flex-layout.row#homeDesktop__heroBanner":{
+        "title": "Home Hero-Banner",
+        "children": [
+            "flex-layout.col#homeDesktop__heroBanner--category1",
+            "flex-layout.col#homeDesktop__heroBanner--category2",
+            "flex-layout.col#homeDesktop__heroBanner--category3",
+            "flex-layout.col#homeDesktop__heroBanner--category4",
+            "flex-layout.col#homeDesktop__heroBanner--category5",
+            "flex-layout.col#homeDesktop__heroBanner--category6",
+            "flex-layout.col#homeDesktop__heroBanner--category7",
+            "flex-layout.col#homeDesktop__heroBanner--category8",
+            "flex-layout.col#homeDesktop__heroBanner--category9",
+            "flex-layout.col#homeDesktop__heroBanner--category10",
+            "flex-layout.col#homeDesktop__heroBanner--category11",
+            "flex-layout.col#homeDesktop__heroBanner--category12"
+        ],
+        "props": {
+            "blockClass": "heroBanner__rowCategories--organization",
+            "colSizing": "auto",
+            "preventHorizontalStretch": true
+        }
+    }
+}

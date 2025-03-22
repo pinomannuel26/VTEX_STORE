@@ -1,0 +1,13 @@
+.flexRowContent--heroBanner__rowCategories--organization{
+    align-items: center;
+    height: 56px;
+    padding: 8px 0px 8px;
+    max-width: 1136px;
+    margin: auto;
+}
+.flexCol--category__column{
+    align-items: center;
+}
+.flexCol--category__column:hover{
+    border-bottom: 3px solid black;
+}
