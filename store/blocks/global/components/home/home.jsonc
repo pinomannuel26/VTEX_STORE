@@ -8,5 +8,11 @@
            "blockClass": "homeDesktop__sliderLayout"
         }
         
+    },
+    "flex-layout.row#home__sliderProducts":{
+        "title": "home__sliderProducts main",
+        "children": [
+            "list-context.product-list#demo1"
+        ]
     }
 }

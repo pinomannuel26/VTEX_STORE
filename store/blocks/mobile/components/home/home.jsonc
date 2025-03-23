@@ -1,0 +1,7 @@
+{
+    "flex-layout.row#homeMobile__sliderCategories":{
+        "children": [
+            "slider-layout#sliderMobile__categories"
+        ]
+    }
+}

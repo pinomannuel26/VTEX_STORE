@@ -3,7 +3,12 @@
     "blocks": [
       "responsive-layout.desktop#homeDesktop",
       "responsive-layout.mobile#homeMobile",
-      "flex-layout.row#home__sliderLayout"
+      "flex-layout.row#home__sliderLayout",
+      "slider-layout#text-test",
+      "flex-layout.row#home__sliderProducts",
+      "slider-layout#text-test",
+      "flex-layout.row#home__sliderProducts"
+      
     ]
   }
   

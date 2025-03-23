@@ -1,0 +1,132 @@
+{
+  "vtex.menu@2.x:menu#websites2": {
+      "title": "home menu desktop",
+      "children": [
+        "menu-item#homeMenu__logo",
+        "search-bar",
+        "minicart.v2",
+        "login"
+        
+      ],
+      "props": {
+        "blockClass": [
+          "menu-item#homeMenu__container"
+        ]
+      }
+    },
+    "menu-item#homeMenu__logo": {
+      "title": "home menu item shop desktop ",
+      "props": {
+        "id": "menu-item-itg",
+        "type": "custom",
+        "highlight": false,
+        "itemProps": {
+          "type": "internal",
+          "href": "https://devformacion--itglobers.myvtex.com/",
+          "noFollow": false,
+          "tagTitle": "ITG",
+          "text": "ITG"
+          
+        },
+        "iconProps": {
+          "id": "bnd-logo",
+          "size": 16,
+          "viewBox": "0 0 16 16",
+          "activeClassName": "rebel-pink",
+          "mutedClassName": "c-action-primary"
+        },
+        "iconToTheRight": true
+      }
+    },
+    "menu-item#homeMenu__item--trend":{
+      "title": "item  menu trend",
+      "props": {
+        "id": "menu-item-trend",
+        "type": "custom",
+        "highlight": false,
+        "blockClass":[
+          "menuDesktop__item"
+        ],
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "trend",
+          "text": "Tendencias de ITGlobers"            
+        }
+      }
+    },
+    "menu-item#homeMenu__item--collection":{
+      "title": "item  menu collection",
+      "props": {
+        "id": "menu-item-collection",
+        "type": "custom",
+        "highlight": false,
+        "blockClass":[
+          "menuDesktop__item"
+        ],
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "collection",
+          "text": "Colección del mes "
+        }
+      }
+    },
+    "menu-item#homeMenu__item--offers":{
+      "title": "item  menu offers",
+      "props": {
+        "id": "menu-item-offers",
+        "type": "custom",
+        "highlight": false,
+        "blockClass":[
+          "menuDesktop__item"
+        ],
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "offers",
+          "text": "Ofertas enero "
+        }
+      }
+    },
+    "menu-item#homeMenu__item--cyber":{
+      "title": "item  menu cyber",
+      "props": {
+        "id": "menu-item-cyber",
+        "type": "custom",
+        "highlight": false,
+        "blockClass":[
+          "menuDesktop__item"
+        ],
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "cyber",
+          "text": "Cyber Monday "
+        }
+      }
+    },
+    "menu-item#homeMenu__item--never":{
+      "title": "item  menu never",
+      "props": {
+        "id": "menu-item-never",
+        "type": "custom",
+        "highlight": false,
+        "blockClass":[
+          "menuDesktop__item"
+        ],
+        "itemProps": {
+          "type": "internal",
+          "href": "#",
+          "noFollow": false,
+          "tagTitle": "never",
+          "text": "Never say never "
+        }
+      }
+    }
+    
+}

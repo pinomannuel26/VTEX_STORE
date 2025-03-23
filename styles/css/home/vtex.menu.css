@@ -1,3 +1,18 @@
+.styledLinkContent--menuDesktop__item{
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+    font-weight: 400;
+}
+
 .menuItem--menuDesktop__item:hover{
     border-bottom: 2px solid black;
+
 }
+
+.menuContainer{
+    display: flex;
+    align-items: center;
+    
+}
+

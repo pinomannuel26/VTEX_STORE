@@ -4,10 +4,14 @@
     padding: 8px 0px 8px;
     max-width: 1136px;
     margin: auto;
+    
 }
 .flexCol--category__column{
     align-items: center;
 }
 .flexCol--category__column:hover{
     border-bottom: 3px solid black;
+}
+.flexRowContent--homeMenu__items{
+    gap: 15px;
 }

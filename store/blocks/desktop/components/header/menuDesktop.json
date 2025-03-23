@@ -4,15 +4,16 @@
         "children": [
           "menu-item#homeMenu__logo",
           "search-bar",
-          "menu-item#homeMenu__item--trend",
-          "menu-item#homeMenu__item--collection",
-          "menu-item#homeMenu__item--offers",
-          "menu-item#homeMenu__item--cyber",
-          "menu-item#homeMenu__item--never",
+          "flex-layout.row#homeMenu__items",
           "minicart.v2",
           "login"
           
-        ]
+        ],
+        "props": {
+          "blockClass": [
+            "menu-item#homeMenu__container"
+          ]
+        }
       },
       "menu-item#homeMenu__logo": {
         "title": "home menu item shop desktop ",
@@ -26,6 +27,7 @@
             "noFollow": false,
             "tagTitle": "ITG",
             "text": "ITG"
+            
           },
           "iconProps": {
             "id": "bnd-logo",
@@ -127,9 +129,17 @@
           }
         }
       },
-      "search-bar":{
+      "flex-layout.row#homeMenu__items":{
+        "title": "home menu items",
+        "children": [
+          "menu-item#homeMenu__item--trend",
+          "menu-item#homeMenu__item--collection",
+          "menu-item#homeMenu__item--offers",
+          "menu-item#homeMenu__item--cyber",
+          "menu-item#homeMenu__item--never"
+        ],
         "props": {
-          "placeholder":"Search products..."
+          "blockClass": "homeMenu__items"
         }
       }
       
