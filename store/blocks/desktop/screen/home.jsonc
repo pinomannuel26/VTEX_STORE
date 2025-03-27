@@ -2,7 +2,9 @@
     "responsive-layout.desktop#homeDesktop":{
         "title": "Home section desktop",
         "children": [
-           "flex-layout.row#homeDesktop__heroBanner" //Componente heroBanner
+           "flex-layout.row#homeDesktop__heroBanner", //Componente heroBanner
+           "flex-layout.row#home__sliderLayout"
+           
         ]
     }
 

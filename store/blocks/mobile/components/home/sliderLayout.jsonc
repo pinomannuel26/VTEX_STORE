@@ -1,0 +1,39 @@
+{
+   "list-context.image-list#mobileHome__sliderLayout--image": {
+        "title": "Slider layout images",
+        "children": [
+            "slider-layout#homeMobile__sliderLayout--images"
+        ],
+        "props": {
+           "height": 480,
+           "width":360,
+           "images": [
+              {
+                 "image": "assets/img/heroMobile/heroMobile.png",
+                 "description": "image 1"
+              },
+              {
+                  "image": "assets/img/heroMobile/heroMobile.png",
+                 "description": "image 2"
+              }
+           ]
+        }
+     },
+     "slider-layout#homeMobile__sliderLayout--images": {
+        "title": "sliderLayout main control images",
+        "props": {
+           "itemsPerPage": {
+              "desktop": 1,
+              "tablet": 1,
+              "phone": 1
+           },
+           "fullWidth": true,
+           "showNavigationArrows": "never",
+           "showPaginationDots": "never",
+           "autoplay": {
+              "timeout": 8000
+           },
+           "blockClass": "mobile__home--slider"
+        }
+     }
+}

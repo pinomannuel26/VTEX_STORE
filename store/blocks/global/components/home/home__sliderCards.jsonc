@@ -1,0 +1,131 @@
+{
+    "slider-layout#home__sliderCards": {
+
+        "title":"Slider home cards",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass":[
+            "home__sliderCard"
+          ]
+        },
+        "children": ["flex-layout.row#sliderCard__rowContainer","flex-layout.row#sliderCard__rowContainer","flex-layout.row#sliderCard__rowContainer","flex-layout.row#sliderCard__rowContainer","flex-layout.row#sliderCard__rowContainer","flex-layout.row#sliderCard__rowContainer"]
+      },
+      "flex-layout.row#sliderCard__rowContainer": {
+        "title": "row ",
+        "children": [
+          "flex-layout.col#home__slider--card1"
+        ]
+      },
+      "flex-layout.col#home__slider--card1": {
+        "title":"home silider card one",
+        "props": {
+          "blockClass":[
+            "sliderCard__cardStyles"
+          ]
+        },
+        "children": [
+          "flex-layout.row#sliderCard__rowOne",
+          "flex-layout.row#sliderCard__rowTwo"
+        ]
+      },
+      "flex-layout.row#sliderCard__rowOne":{
+          "title": "row slider card one image",
+          "props": {
+              "blockClass": "sliderCard__rowImage"
+          },
+          "children": [
+              "image#sliderCard__rowOne--image"
+          ]
+  
+      },
+      "image#sliderCard__rowOne--image": {
+          "title":"card one slider imagen",
+          "props": {
+            "src": "assets/img/cardSlider/cardSlider.png"
+          }
+      },
+      "flex-layout.row#sliderCard__rowTwo":{
+        "title": "card one slider information",
+        "children": [
+          "flex-layout.col#cardSlider__information",
+          "flex-layout.col#cardSlider__image"
+        ], 
+        "props": {
+          "colSizing": "auto",
+          "blockClass": ["sliderContainer__rowTwo"]
+        }
+      },
+      "flex-layout.col#cardSlider__information":{
+        "children": [
+          "flex-layout.row#cardSlider__information--title",
+          "flex-layout.row#cardSlider__information--description"
+        ], 
+        "props": {
+          "blockClass":"sliderContainer__information"
+
+        }      
+        
+      },
+      "flex-layout.row#cardSlider__information--title":{
+        "title": "row card slider information title",
+        "children": [
+          "rich-text#card__information--title"
+        ],
+        "props": {
+          "blockClass": "card__information--title"
+        }
+      },
+      "rich-text#card__information--title":{
+        "title": "card one slider information title",
+        "props": { 
+          "text": "Heading ",
+          "blockClass": ["card__information--title"]
+        }  
+    },
+      "flex-layout.row#cardSlider__information--description":{
+        "title": "row card slider information description",
+        "children": [
+          "rich-text#card__information--description"
+        ],
+        "props": {
+          "blockClass": "card__information--description"
+        }
+      },
+    "rich-text#card__information--description":{
+      "title": "slider one slider information description",
+      "props": { 
+        "text": "Builder platform is made by, buildership platform is made by... ",
+        "blockClass": ["card__information--description"]
+      }
+    },
+    "flex-layout.col#cardSlider__image":{
+      "title": "slider card one information colummun image",
+      "children": [
+        "flex-layout.row#cardSlider__imagen"
+      ],
+      "props": {
+        "blockClass":"sliderContainer__imagen"
+      }
+    },
+    "flex-layout.row#cardSlider__imagen":{
+      "title": "imagen slider medalla",
+      "children": [
+        "image#cardSlider__cardOne--image"
+      ], 
+      "props": {
+        "blockClass": "card__styleImagen"
+      }
+    },
+    "image#cardSlider__cardOne--image": {
+      "title":"slider card one information image",
+      "props": {
+        "src": "assets/img/cardSlider/medalla.png"  
+      }
+  }
+}

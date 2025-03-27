@@ -1,0 +1,16 @@
+/*styles rich-text card*/
+.container--card__information--title{
+    font-family: lexend;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24.88px;
+    letter-spacing: 0;
+
+}
+.container--card__information--description{
+    font-family: Lexend;
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 14.52px;
+    letter-spacing: 0;
+}

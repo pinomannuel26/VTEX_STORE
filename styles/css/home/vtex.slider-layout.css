@@ -3,3 +3,9 @@
     height: 378px;
     
 }
+/*styles slider cards*/
+.sliderLayoutContainer--home__sliderCard{
+    width: 1,092px;
+    height: 340px;
+    gap: 24px;
+}

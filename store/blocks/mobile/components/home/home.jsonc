@@ -3,5 +3,15 @@
         "children": [
             "slider-layout#sliderMobile__categories"
         ]
+    },
+    "flex-layout.row#homeMobile__sliderLayout":{
+        "title": "home slider layout main",
+        "children": [
+            "list-context.image-list#mobileHome__sliderLayout--image"
+        ],
+        "props": {
+           "blockClass": "homeDesktop__sliderLayout"
+        }
+        
     }
 }

@@ -3,11 +3,11 @@
     "blocks": [
       "responsive-layout.desktop#homeDesktop",
       "responsive-layout.mobile#homeMobile",
-      "flex-layout.row#home__sliderLayout",
-      "slider-layout#text-test",
+      "slider-layout#home__sliderCards",
       "flex-layout.row#home__sliderProducts",
-      "slider-layout#text-test",
+      "slider-layout#home__sliderCards",
       "flex-layout.row#home__sliderProducts"
+
       
     ]
   }

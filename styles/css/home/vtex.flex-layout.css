@@ -1,3 +1,4 @@
+/*styles row categories*/
 .flexRowContent--heroBanner__rowCategories--organization{
     align-items: center;
     height: 56px;
@@ -15,3 +16,46 @@
 .flexRowContent--homeMenu__items{
     gap: 15px;
 }
+/*Styles card slider*/
+.flexCol--sliderCard__cardStyles{
+    width: 324px;
+    height: 336.46px;
+    border-radius: 12px;
+}
+/*.flexRow--sliderContainer__rowTwo{
+    border: 1px solid green;
+    width: 324px;
+    height: 79.19px;
+    flex: none;
+}*/
+
+.flexCol--sliderContainer__information{
+    width:247.97px;
+    height:79.19px;
+}
+
+.flexRow--card__information--title{
+    width: 247.97px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+}
+.flexRow--card__information--description{
+    width: 247.97px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+}
+.flexRow--card__styleImagen{
+    width:76.03px;
+    height:79.19px;
+}
+.flex-layout-0-x-stretchChildrenWidth{
+    background-color: black;
+}
+.flexCol--sliderContainer__imagen{
+    flex: none;
+    width:76.03px;
+    height:79.19px;
+}
+
