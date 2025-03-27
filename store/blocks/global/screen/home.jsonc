@@ -3,8 +3,10 @@
     "blocks": [
       "responsive-layout.desktop#homeDesktop",
       "responsive-layout.mobile#homeMobile",
+      "flex-layout.row#cardSlider__title",
       "slider-layout#home__sliderCards",
       "flex-layout.row#home__sliderProducts",
+      "flex-layout.row#cardSlider__title",
       "slider-layout#home__sliderCards",
       "flex-layout.row#home__sliderProducts"
 
