@@ -71,3 +71,36 @@
     gap: 8px;
 
 }
+@media (max-width: 767px) {
+    
+    .flexCol--sliderContainer__imagen{
+        display: none;
+        width: 26.79px;
+        height: 48.07px;
+        border: 3px solid green;
+    }
+    .flexRow--card__styleImagen{
+        width: 56.79px;
+        height: 48.07px;
+        
+    }
+    .flexCol--sliderContainer__information{
+        width: 185.21px;
+        height: 48.07px;
+    }
+    .flexRow--card__information--title {
+        width: 185.21px;
+        height: 19px;
+    }
+    .flexRow--card__information--description{
+        width: 185.21px;
+        height: 11px;
+    }
+    /*stilos boton*/
+.flexRow--cardThree__buttom{
+    width: 100px;
+    height: 32px;
+
+
+}
+}

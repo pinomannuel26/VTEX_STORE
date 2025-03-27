@@ -32,3 +32,12 @@
     line-height: 16.8px;
     letter-spacing: 0px;
 }
+
+@media (max-width: 767px) {
+/*styles rich-text card*/
+
+    .container--card__information--description{
+        font-size: 10px;
+    }
+
+}
