@@ -31,7 +31,8 @@
         },
         "children": [
           "flex-layout.row#sliderCard__rowOne",
-          "flex-layout.row#sliderCard__rowTwo"
+          "flex-layout.row#sliderCard__rowTwo",
+          "flex-layout.row#sliderCard__rowThree"
         ]
       },
       "flex-layout.row#sliderCard__rowOne":{
@@ -57,7 +58,7 @@
           "flex-layout.col#cardSlider__image"
         ], 
         "props": {
-          "colSizing": "auto",
+          "colSizing": "auto", //para que se quite la distribucion de 50% de las columnas
           "blockClass": ["sliderContainer__rowTwo"]
         }
       },
@@ -127,5 +128,24 @@
       "props": {
         "src": "assets/img/cardSlider/medalla.png"  
       }
+  },
+  "flex-layout.row#sliderCard__rowThree":{
+    "title": "card one slider buttom",
+    "children": [
+      "rich-text#sliderCard__buton--text"
+    ],
+    "props": {
+      "blockClass": "cardThree__buttom"
+    }
+  },
+  "rich-text#sliderCard__buton--text":{
+    "title": "slider card buttom text",
+    "props": { 
+        "text": "Ver precio ->",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "slidercard__buttom--text"
+      }
+
   }
 }

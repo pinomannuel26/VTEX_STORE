@@ -21,6 +21,8 @@
     width: 324px;
     height: 336.46px;
     border-radius: 12px;
+
+    align-items: center;
 }
 /*.flexRow--sliderContainer__rowTwo{
     border: 1px solid green;
@@ -58,4 +60,14 @@
     width:76.03px;
     height:79.19px;
 }
+/*stilos boton*/
+.flexRow--cardThree__buttom{
+    width: 134px;
+    height: 43px;
+    border-radius: 40px;
+    display: flex;
+    align-items: center;
+    background-color: #1D2734;
+    gap: 8px;
 
+}
