@@ -5,6 +5,11 @@
         },
         "children": ["flex-layout.row#desktop"]
       },
+      "flex-layout.row#test": {
+        "children": [
+          "flex-layout.col#desktop__menuWraper"
+        ]
+      },
       "flex-layout.row#desktop": {
         "props": {
           "horizontalAlign": "center",

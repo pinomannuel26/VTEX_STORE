@@ -17,5 +17,17 @@
           "text": "An amazing product. ",
           "blockClass": "cardSlider__title--textMain"
         }  
+    },
+    "flex-layout.row#cardSlider__icon--image":{
+        "title": "icon card slider",
+        "children": [
+            "image#cardSlider__icon--image"
+        ]
+    },
+    "image#cardSlider__icon--image": {
+        "title":"card icon slider img",
+        "props": {
+          "src": "/arquivos/Slider indicator.svg"
+        }
     }
 }

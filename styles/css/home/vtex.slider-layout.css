@@ -9,4 +9,10 @@
     height: 340px;
     gap: 24px;
 }
+.paginationDot--home__sliderCard{
+    display: none;
+}
+.paginationDot--slider_products{
+    display: none;
+}
 

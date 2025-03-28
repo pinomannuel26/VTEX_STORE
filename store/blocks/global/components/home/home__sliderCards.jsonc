@@ -9,6 +9,7 @@
             "phone": 1
           },
           "infinite": true,
+          "customPaging": true,
           "showNavigationArrows": "desktopOnly",
           "blockClass":[
             "home__sliderCard"
@@ -58,6 +59,7 @@
           "flex-layout.col#cardSlider__image"
         ], 
         "props": {
+          "preserveLayoutOnMobile": true,
           "colSizing": "auto", //para que se quite la distribucion de 50% de las columnas
           "blockClass": ["sliderContainer__rowTwo"]
         }

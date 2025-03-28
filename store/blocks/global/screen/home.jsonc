@@ -5,10 +5,16 @@
       "responsive-layout.mobile#homeMobile",
       "flex-layout.row#cardSlider__title",
       "slider-layout#home__sliderCards",
+      "flex-layout.row#cardSlider__icon--image",
+      "flex-layout.row#cardSlider__title",
       "flex-layout.row#home__sliderProducts",
+      "flex-layout.row#cardSlider__icon--image",
       "flex-layout.row#cardSlider__title",
       "slider-layout#home__sliderCards",
-      "flex-layout.row#home__sliderProducts"
+      "flex-layout.row#cardSlider__icon--image",
+      "flex-layout.row#cardSlider__title",
+      "flex-layout.row#home__sliderProducts",
+      "flex-layout.row#cardSlider__icon--image"
 
       
     ]

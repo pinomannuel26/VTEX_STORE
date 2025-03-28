@@ -31,13 +31,13 @@
     font-size: 16px;
     line-height: 16.8px;
     letter-spacing: 0px;
+    margin-top: 11px;
+    margin-left: 72px;
 }
 
-@media (max-width: 767px) {
-/*styles rich-text card*/
-
-    .container--card__information--description{
-        font-size: 10px;
+@media (max-width: 1024px) {
+    .container--cardSlider__title--textMain{
+        margin-left: 20px;
     }
 
 }

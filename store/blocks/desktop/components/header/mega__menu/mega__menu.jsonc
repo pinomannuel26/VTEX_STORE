@@ -1,10 +1,11 @@
 {
-    "sticky-layout#4-desktop": {
-        "title": "Mega menu desktop",
+    
+    "flex-layout.col#desktop__menuWraper": {
       "children": [
-        "flex-layout.row#row__trigger--desktop", 
-        "flex-layout.row#mega-menu"
-    ]
+        "mega-menu-trigger-btn", 
+        "mega-menu#desktop"
+      ]
+
     },
     "flex-layout.row#row__trigger--desktop": {
       "title": "Row mega menu desktop",
