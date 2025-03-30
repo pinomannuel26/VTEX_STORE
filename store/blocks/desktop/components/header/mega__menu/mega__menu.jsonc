@@ -1,40 +1,39 @@
 {
-    
-    "flex-layout.col#desktop__menuWraper": {
+  "sticky-layout#4-desktop": {
+      "title": "Mega menu desktop",
       "children": [
-        "mega-menu-trigger-btn", 
-        "mega-menu#desktop"
+        "flex-layout.row#row__trigger--desktop", 
+        "flex-layout.row#mega-menu"
       ]
+  },
+  "flex-layout.row#row__trigger--desktop": {
+    "title": "Row mega menu desktop",
+    "children": [
+      "flex-layout.col#trigger-mega-menu"
+        ]
+  },
 
-    },
-    "flex-layout.row#row__trigger--desktop": {
+  "flex-layout.row#mega-menu": {
       "title": "Row mega menu desktop",
-      "children": [
-        "flex-layout.col#trigger-mega-menu"
-          ]
+    "children": ["mega-menu#desktop"]
+  },
+  "mega-menu#desktop": {
+      "title": "componets Mega menu desktop",
+    "props": {
+      "openOnly": "horizontal"
+    }
+  },
+  "flex-layout.col#trigger-mega-menu": {
+      "title": "Col mega menu",
+    "props": {
+      "verticalAlign": "middle"
     },
-  
-    "flex-layout.row#mega-menu": {
-        "title": "Row mega menu desktop",
-      "children": ["mega-menu#desktop"]
-    },
-    "mega-menu#desktop": {
-        "title": "componets Mega menu desktop",
+    "children": ["mega-menu-trigger-btn"]
+  },
+  "mega-menu-trigger-btn": {
+      "title":"Trigger mega menu desktop",
       "props": {
-        "openOnly": "horizontal"
-      }
-    },
-    "flex-layout.col#trigger-mega-menu": {
-        "title": "Col mega menu",
-      "props": {
-        "verticalAlign": "middle"
-      },
-      "children": ["mega-menu-trigger-btn"]
-    },
-    "mega-menu-trigger-btn": {
-        "title":"Trigger mega menu desktop",
-        "props": {
-        "Drawer": "drawer"
-      }
+      "Drawer": "drawer"
     }
   }
+}

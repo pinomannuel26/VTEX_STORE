@@ -2,7 +2,7 @@
     "vtex.menu@2.x:menu#websites": {
         "title": "home menu desktop",
         "children": [
-          "flex-layout.col#desktop__menuWraper",
+          "sticky-layout#4-desktop",
           "menu-item#homeMenu__logo",
           "search-bar",
           "flex-layout.row#homeMenu__items",
