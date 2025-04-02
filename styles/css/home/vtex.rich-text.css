@@ -1,23 +1,28 @@
+/*styles rich-text categories*/
+.paragraph--rich-text__categories{
+    font-size: 12px;
+}
 /*styles rich-text card*/
 .container--card__information--title{
-    font-family: lexend;
+    font-family: "Lexend", sans-serif;
     font-weight: 600;
     font-size: 16px;
     line-height: 24.88px;
     letter-spacing: 0;
-
 }
 .container--card__information--description{
-    font-family: Lexend;
+    font-family: "Lexend", sans-serif;
     font-weight: 300;
     font-size: 12px;
     line-height: 14.52px;
     letter-spacing: 0;
+    
 }
+
 /*slider boton*/
 .container--slidercard__buttom--text{
     color: white;
-    font-family: Lexend;
+    font-family: "Lexend", sans-serif;
     font-weight: 400;
     font-size: 12px;
     line-height: 100%;
@@ -26,7 +31,7 @@
     height: 15px;
 }
 .container--cardSlider__title--textMain{
-    font-family: Lexend;
+    font-family: "Lexend", sans-serif;
     font-weight: 500;
     font-size: 16px;
     line-height: 16.8px;
@@ -40,4 +45,24 @@
         margin-left: 20px;
     }
 
+}
+/*STYLES PLP*/
+.paragraph--containerStyle__result--amountText{
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 248;
+    color: #1D2734;
+}
+.paragraph--container__result--amountText{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 289;
+    color: #1D2734;
+ 
 }

@@ -24,7 +24,8 @@
         "props": {
             "text": "Food",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category2":{
@@ -52,7 +53,8 @@
         "props": {
             "text": "Fitness",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category3":{
@@ -80,7 +82,8 @@
         "props": {
             "text": "En el Ártico",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category4":{
@@ -108,7 +111,8 @@
         "props": {
             "text": "Poolday",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category5":{
@@ -136,7 +140,8 @@
         "props": {
             "text": "Hoteles",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category6":{
@@ -164,7 +169,8 @@
         "props": {
             "text": "Casas",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category7":{
@@ -192,7 +198,8 @@
         "props": {
             "text": "Naturales",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category8":{
@@ -220,7 +227,8 @@
         "props": {
             "text": "Closet",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category9":{
@@ -248,7 +256,8 @@
         "props": {
             "text": "Playa",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category10":{
@@ -276,7 +285,8 @@
         "props": {
             "text": "Alpinismo",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category11":{
@@ -304,7 +314,8 @@
         "props": {
             "text": "Delivery",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     },
     "flex-layout.col#homeDesktop__heroBanner--category12":{
@@ -332,7 +343,8 @@
         "props": {
             "text": "Cervezas",
             "textAlignment": "CENTER",
-            "textPosition": "CENTER"
+            "textPosition": "CENTER",
+            "blockClass": "rich-text__categories"
         }
     }
 }

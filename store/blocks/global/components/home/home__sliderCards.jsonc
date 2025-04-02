@@ -59,7 +59,7 @@
           "flex-layout.col#cardSlider__image"
         ], 
         "props": {
-          "preserveLayoutOnMobile": true,
+          "preserveLayoutOnMobile": true, //para que el diseño mobile siga igual al diseño desktop
           "colSizing": "auto", //para que se quite la distribucion de 50% de las columnas
           "blockClass": ["sliderContainer__rowTwo"]
         }

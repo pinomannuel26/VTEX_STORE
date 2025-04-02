@@ -1,0 +1,11 @@
+{
+    "search-result-layout.mobile": {
+        "children": [
+             "flex-layout.row#container__result--order--filter",
+             "flex-layout.row#container__result--navigator--products"
+        ],
+        "props": {
+            "preventRouteChange": true
+        }
+    }
+}

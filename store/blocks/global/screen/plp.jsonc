@@ -1,0 +1,73 @@
+{ 
+    "store.search": {
+        "title":"Gobal search",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#department": {
+        "title":"Gobal search departaments ",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#category": {
+        "title":"Gobal search categorias ",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            },
+            "blockClass":[
+                "sssssssssssssssss"
+            ]
+        }
+    },
+    "store.search#subcategory": {
+        "title":"Gobal search subcategories ",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "store.search#brand": {
+        "title":"Gobal search brand ",
+        "blocks": [
+            "search-result-layout"
+        ],
+        "props": {
+            "context": {
+                "skusFilter": "FIRST_AVAILABLE",
+                "simulationBehavior": "default"
+            }
+        }
+    },
+    "search-result-layout": {
+        "title":"Gobal search layaout",
+        "blocks": [
+            "search-result-layout.desktop",
+            "search-result-layout.mobile",
+            "search-not-found-layout"
+        ]
+    }   
+}

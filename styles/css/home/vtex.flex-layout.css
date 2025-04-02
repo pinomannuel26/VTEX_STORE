@@ -1,20 +1,27 @@
 /*styles row categories*/
 .flexRowContent--heroBanner__rowCategories--organization{
-    align-items: center;
     height: 56px;
-    padding: 8px 0px 8px;
+    padding: 8px 0px 0px;
     max-width: 1136px;
     margin: auto;
+    justify-content: left;
     
 }
 .flexCol--category__column{
+    width: 70px;
+    height: 47px;
+    gap: 4px;
     align-items: center;
+    text-align: center;
+    max-width: none;
+    
 }
 .flexCol--category__column:hover{
     border-bottom: 3px solid black;
 }
 .flexRowContent--homeMenu__items{
     gap: 15px;
+    
 }
 /*Styles card slider*/
 .flexCol--sliderCard__cardStyles{
@@ -73,4 +80,23 @@
 }
 .flexRow--cardThree__buttom .stretchChildrenWidth{
     margin: 0;
+}
+/*Styles PLP*/
+.flexRowContent--containerStyle__result--order--filter{
+    border: 1px solid black;
+}
+.flexCol--containerStyle__result--name--amount{
+    border: 1px solid greenyellow;    
+}
+/*Style navigator*/
+.flexColChild--containerStyle__result--navigator{
+    width: 184px;
+    height: 516px;
+
+}
+.flexColChild--containerStyle__result--products{
+   
+}
+.flexRowContent--container__result--navigator--products{
+    gap: 9px;
 }

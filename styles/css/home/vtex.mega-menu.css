@@ -1,9 +1,21 @@
-/*Cambiar icono del mega.menu*/
+/*Cambiar icono del mega.menu
 .triggerContainer::after{
     content: "";
     display: inline-block;
     width: 24px;
     height: 24px;
     background-image: url("/arquivos/hpa-hamburguer-menu.svg");
-}
+    vtex-mega-menu-2-x-triggerButtonIcon vtex-mega-menu-2-x-triggerButtonIcon--active
+}*/
 
+.triggerButtonIcon--active{
+    border: 2px solid red;
+    background-color: aqua;
+    color: black !important;
+    fill: black !important;
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    /*background-image: url("/arquivos/hpa-hamburguer-menu.svg");*/
+}

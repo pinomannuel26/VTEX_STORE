@@ -1,0 +1,180 @@
+{
+    "search-content#global__search--layout":{
+        "title":"search contend",
+        "blocks":[
+            "gallery#global__search",
+            "not-found"
+        ]
+    },//los filtros de la plp
+    "flex-layout.row#container__result--order--filter": {
+        "title": "container row result layout filter and order",
+        "children": [
+            "flex-layout.col#container__result--name--amount",
+            "flex-layout.col#container__result--filter"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "containerStyle__result--order--filter"
+        }
+    },
+    "flex-layout.col#container__result--name--amount": {
+        "title": "container result col name and amount products",
+        "children": [
+            "flex-layout.row#container__result--name",
+            "flex-layout.row#container__result--amount"
+        ],
+        "props": {
+            "blockClass":[
+                "containerStyle__result--name--amount"
+            ]
+        }
+    },
+    "flex-layout.col#container__result--filter": {
+        "title": "container result row filter products",
+        "children": [
+            "order-by.v2#container__result--orderBy"
+        ],
+        "props": {
+            "blockClass":[
+                "container__result--filter"
+            ]
+        }
+    },
+    "flex-layout.row#container__result--name":{
+        "title": "container result row name products",
+        "children": [
+            "rich-text#container__result--nameText"
+        ]
+    },
+    "flex-layout.row#container__result--amount":{
+        "title": "container result row amount products",
+        "children": [
+            "rich-text#container__result--amountText"
+        ]
+    },
+    "rich-text#container__result--nameText":{
+        "props": {
+            "text": "Clothing, Shoes and Accesories",
+            "blockClass": "containerStyle__result--amountText"
+        }
+    },
+    "rich-text#container__result--amountText":{
+        "props": {
+            "text": "18 productos encontrados",
+            "blockClass": "container__result--amountText"
+        }
+    },//filtro de ordenar por
+    "order-by.v2#container__result--orderBy": {
+        "title":"order by result layout",
+        "props":{
+            "blocksClass":[
+                "xxxxxxxxxxxxxxxxxxxxxxxxxxxxx"
+            ]
+        }
+    },
+    "flex-layout.row#container__result--navigator--products": {
+        "title": "container resul col navigator and products",
+        "children": [
+          "flex-layout.col#container__result--navigator",
+          "flex-layout.col#container__result--products"  
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "containerStyle__result--navigator--products"
+        }
+    },
+    "flex-layout.col#container__result--navigator":{
+        "title": "container result col navigator",
+        "children": [
+            "filter-navigator.v3"        
+        ],
+        "props": {
+            "blockClass":[
+                "containerStyle__result--navigator"
+            ]
+        }
+    },
+    "flex-layout.col#container__result--products":{
+        "title":"container result col products",
+        "children": [
+            "search-content#global__search--layout"
+        ],
+        "props": {
+            "blockClass":[
+                "containerStyle__result--products"
+            ]
+        }
+    },
+    "filter-navigator.v3": {//filtro de las categorias, etc
+        "title": "filter navigator result layout",
+        "props": {
+            "blocksClass":[
+                "containerStyles__navigator"
+            ]
+        }
+    },
+    "gallery#global__search": {
+        "props": {
+            "layouts": [
+                {
+                    "name": "whole",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
+                },
+                {
+                    "name": "two",
+                    "component": "OneOrTwoLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
+                },
+                {
+                    "name": "many",
+                    "component": "ManyByLineSummary",
+                    "itemsPerRow": {
+                        "desktop": 3,
+                        "mobile": 1
+                    }
+                }
+            ],
+            "OneOrTwoLineSummary": "product-summary.shelf",
+            "ManyByLineSummary": "product-summary.shelf"
+        }
+    },
+    "gallery-layout-switcher": {
+        "children": [
+            //It follows the same whole -> two -> many order
+            "gallery-layout-option#whole",
+            "gallery-layout-option#two",
+            "gallery-layout-option#many"
+        ]
+    },
+    "gallery-layout-option#whole": {
+        "props": {
+            "name": "whole"
+        },
+        "children": [
+            "icon-single-grid"
+        ]
+    },
+    "gallery-layout-option#two": {
+        "props": {
+            "name": "two"
+        },
+        "children": [
+            "icon-inline-grid"
+        ]
+    },
+    "gallery-layout-option#many": {
+        "props": {
+            "name": "many"
+        },
+        "children": [
+            "icon-menu"
+        ]
+    }
+}
