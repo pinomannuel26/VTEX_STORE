@@ -2,18 +2,13 @@
     "login": {
         "props": {
           "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Código para la formacion",//escrito que aparece al seleccionar lo opcion de codigo por email
-          "emailPlaceholder": "soy un placeholder en formacion POPUP", //emailPlaceholder es la propiedad de cuando lo tenemos en popup
+          "accessCodeTitle": "Código para la formacion",
+          "emailPlaceholder": "soy un placeholder en formacion POPUP",
           "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true
-          //"logInButtonBehavior": "link",//redireccionar a una pag que por fecto es not fout cuando no esta loguiado
-          //"accountOptionsButtonBehavior": "link"//redireccionar a una pag que por fecto es not fout cuando esta loguiado
+          "showPasswordVerificationIntoTooltip": true,
+          "blockClass":[
+            "homeMenuStyle__login"
+          ]
         }
-      }/*,
-      "login-content":{
-        "props": {
-            "emailPlaceholder": "1soy un placeholder en formacion"
-        }      
-    }*/
-      
+      }
 }

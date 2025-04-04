@@ -24,13 +24,13 @@
     border: 2px solid green;
     width: 290.15px;
     height: 106.3px;
-}*/
+}
 .filterItem :global(.vtex-checkbox__line-container){
 
     border: 2px solid red;
     display: flex;
-    flex-direction: column-reverse;
-}
+    flex-direction: row-reverse;
+}*/
 /*texto interno de categorias, subcategorias, etc*/
 .filterContent :global(.vtex-checkbox__label){
     font-family: "Lexend", sans-serif;

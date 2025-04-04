@@ -1,0 +1,9 @@
+/*styles rich-text categories*/
+.paragraph--rich-text__categories{
+    font-size: 12px;
+}
+
+:global(.vtex-login-2-x-label){
+    color: red;
+    content: "login";
+}

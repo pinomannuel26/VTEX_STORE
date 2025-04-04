@@ -1,0 +1,8 @@
+.flexRowContent--homeMenu__items{  
+    border: 2px solid blue;
+}
+/*search*/
+.flexRowContent--homeMenuStyle__container :global(.vtex-input-prefix__group){
+    border-radius: 100px;
+}
+

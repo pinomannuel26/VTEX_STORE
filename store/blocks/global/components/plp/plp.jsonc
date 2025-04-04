@@ -176,5 +176,20 @@
         "children": [
             "icon-menu"
         ]
+    },
+    /*MIGA DE PAN PLP*/
+    "flex-layout.row#plp__product-breadcrumb": {
+        "title": "global product breadcrum",
+        "props": {
+          "marginTop": 4
+        },
+        "children": ["breadcrumb"]
+      },
+      "breadcrumb": {
+        "title": "Global breadcrum",
+        "props": {
+            "showOnMobile": true//si esta en false el componente breadcrum se oculpa en mobile porqe puede 
+                                //ser muy invasivo, es la miga de pan home->casa-> ropa
+        }
     }
 }

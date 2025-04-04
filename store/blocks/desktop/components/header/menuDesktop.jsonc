@@ -1,20 +1,55 @@
 {
-    "vtex.menu@2.x:menu#websites": {
+    "flex-layout.row#home__menu": {
         "title": "home menu desktop",
         "children": [
-          "sticky-layout#4-desktop",
-          "menu-item#homeMenu__logo",
-          "search-bar",
-          "flex-layout.row#homeMenu__items",
-          "minicart.v2",
-          "login"
+          "flex-layout.col#homeMenu__col--logos--search",
+          "flex-layout.col#homeMenu__col--items",
+          "flex-layout.col#homeMenu__col--minCart--login"
           
         ],
         "props": {
           "blockClass": [
-            "menu-item#homeMenu__container"
+            "homeMenuStyle__container"
           ]
         }
+      },
+      "flex-layout.col#homeMenu__col--logos--search":{
+        "title": "",
+        "children": [
+          "flex-layout.row#homeMenu__row--logos--search"
+        ]
+      },
+      "flex-layout.row#homeMenu__row--logos--search":{
+        "title": "",
+        "children": [
+          "flex-layout.col#megaMenu",
+          "image#image__logo",
+          "search-bar#home__menu--search"
+        ],
+        "props": {
+          "colSizing": "auto"
+        }
+      },
+      "image#image__logo": {
+        "title": "image logo menu",
+        "props": {
+          "src": "/arquivos/ITGlogo.svg",
+          "link": {
+            "url": "/"
+          }
+        }
+      },
+      "flex-layout.col#homeMenu__col--items":{
+        "title": "",
+        "children": [
+          "flex-layout.row#homeMenu__items"
+        ]
+      },
+      "flex-layout.col#homeMenu__col--minCart--login":{
+        "title": "",
+        "children": [
+          "flex-layout.row#homeMenu__row--minCart--login"
+        ]
       },
       "menu-item#homeMenu__logo": {
         "title": "home menu item shop desktop ",
@@ -29,15 +64,7 @@
             "tagTitle": "ITG",
             "text": "ITG"
             
-          },
-          "iconProps": {
-            "id": "bnd-logo",
-            "size": 16,
-            "viewBox": "0 0 16 16",
-            "activeClassName": "rebel-pink",
-            "mutedClassName": "c-action-primary"
-          },
-          "iconToTheRight": true
+          }
         }
       },
       "menu-item#homeMenu__item--trend":{
@@ -140,7 +167,26 @@
           "menu-item#homeMenu__item--never"
         ],
         "props": {
-          "blockClass": "homeMenu__items"
+          "blockClass": "homeMenu__items",
+          "colSizing": "auto"
         }
-      }      
+      },
+      "flex-layout.row#homeMenu__row--minCart--login":{
+        "title": "",
+        "children": [
+          "minicart.v2",
+          "login"
+        ],
+        "props": {
+          "colSizing": "auto"
+        }
+      },
+      "search-bar#home__menu--search":{
+        "props": {
+          "displayMode": "clear-button",
+          "blockClass":[
+              "menu__search-bar"
+          ]
+        }
+      }
 }

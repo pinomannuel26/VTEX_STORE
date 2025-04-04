@@ -1,0 +1,21 @@
+
+/*STYLES PLP*/
+.paragraph--containerStyle__result--amountText{
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 248;
+    color: #1D2734;
+}
+.paragraph--container__result--amountText{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    margin-top: 289;
+    color: #1D2734;
+ 
+}

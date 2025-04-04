@@ -1,0 +1,11 @@
+:global(.vtex-store-icons-0-x-cartIcon){
+    display: none;
+}
+
+.minicartIconContainer::after{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/arquivos/cart.svg");
+}

@@ -1,0 +1,19 @@
+/*styles row categories*/
+.flexRowContent--heroBanner__rowCategories--organization{
+    height: 56px;
+    padding: 8px 0px 0px;
+    max-width: 1136px;
+    margin: auto;
+    justify-content: left;
+}
+.flexCol--category__column{
+    width: 70px;
+    height: 47px;
+    gap: 4px;
+    align-items: center;
+    text-align: center;
+    max-width: none;
+}
+.flexCol--category__column:hover{
+    border-bottom: 3px solid black;  
+}

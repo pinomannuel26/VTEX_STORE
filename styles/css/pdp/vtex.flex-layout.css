@@ -1,0 +1,41 @@
+.flexCol--pdp__imagen{
+    
+    width: 631px;
+    height: 650px;
+    /*margin-top: 192px;*/
+    margin-left: 72px;
+    gap: 24px;
+}
+.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-productImage){
+
+    width: 515px;
+    height: 650px;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    align-items: center;
+}
+
+.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-carouselGaleryThumbs)
+{
+    width: 92px;
+    height: 650px;
+
+}
+.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-figure){
+    width: 90px;
+    height: 76px;
+    border-radius: 4px;
+    border: 1px solid #e7e7e7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-thumbImg){
+    height: 70px;
+    width: 80px;
+}
+
+.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-caretIcon){
+    display: none;
+}

@@ -1,34 +1,8 @@
-/*styles row categories*/
-.flexRowContent--heroBanner__rowCategories--organization{
-    height: 56px;
-    padding: 8px 0px 0px;
-    max-width: 1136px;
-    margin: auto;
-    justify-content: left;
-    
-}
-.flexCol--category__column{
-    width: 70px;
-    height: 47px;
-    gap: 4px;
-    align-items: center;
-    text-align: center;
-    max-width: none;
-    
-}
-.flexCol--category__column:hover{
-    border-bottom: 3px solid black;
-}
-.flexRowContent--homeMenu__items{
-    gap: 15px;
-    
-}
 /*Styles card slider*/
 .flexCol--sliderCard__cardStyles{
     width: 324px;
     height: 336.46px;
     border-radius: 12px;
-
     align-items: center;
 }
 /*.flexRow--sliderContainer__rowTwo{
@@ -59,9 +33,7 @@
     width:76.03px;
     height:79.19px;
 }
-.flex-layout-0-x-stretchChildrenWidth{
-    background-color: black;
-}
+
 .flexCol--sliderContainer__imagen{
     flex: none;
     width:76.03px;
@@ -80,23 +52,4 @@
 }
 .flexRow--cardThree__buttom .stretchChildrenWidth{
     margin: 0;
-}
-/*Styles PLP*/
-.flexRowContent--containerStyle__result--order--filter{
-    border: 1px solid black;
-}
-.flexCol--containerStyle__result--name--amount{
-    border: 1px solid greenyellow;    
-}
-/*Style navigator*/
-.flexColChild--containerStyle__result--navigator{
-    width: 184px;
-    height: 516px;
-
-}
-.flexColChild--containerStyle__result--products{
-   
-}
-.flexRowContent--container__result--navigator--products{
-    gap: 9px;
 }

@@ -14,7 +14,7 @@
           "fullWidth": true
         },
         "children": [
-          "vtex.menu@2.x:menu#websites"
+          "flex-layout.row#home__menu"
         ]
       },
       "flex-layout.col#logo-desktop": {

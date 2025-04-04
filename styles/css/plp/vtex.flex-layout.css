@@ -1,0 +1,27 @@
+/*Styles PLP*/
+.flexRowContent--containerStyle__result--order--filter{
+    border: 1px solid black;
+}
+.flexCol--containerStyle__result--name--amount{
+    border: 1px solid greenyellow;    
+}
+/*Style navigator*/
+.flexColChild--containerStyle__result--navigator{
+    width: 184px;
+    height: 516px;
+
+}
+
+.flexRowContent--container__result--navigator--products{
+    gap: 9px; 
+}
+.flexColChild--containerStyle__result--navigator :global(.vtex-checkbox__line-container){
+    display: flex !important;
+    flex-direction: row !important;
+
+}
+
+.flexColChild--containerStyle__result--navigator :global(.vtex-checkbox__label){
+    width: auto;
+    
+}
