@@ -8,4 +8,6 @@
     width: 24px;
     height: 24px;
     background-image: url("/arquivos/cart.svg");
+    background-repeat: no-repeat;
+
 }

@@ -3,31 +3,37 @@
         "title": "home menu desktop",
         "children": [
           "flex-layout.col#homeMenu__col--logos--search",
-          "flex-layout.col#homeMenu__col--items",
           "flex-layout.col#homeMenu__col--minCart--login"
           
         ],
         "props": {
+          "colSizing": "auto",
           "blockClass": [
             "homeMenuStyle__container"
           ]
         }
       },
       "flex-layout.col#homeMenu__col--logos--search":{
-        "title": "",
+        "title": "home menu col logos search",
         "children": [
           "flex-layout.row#homeMenu__row--logos--search"
-        ]
+        ],
+        "props": {
+          "blockClass":[
+            "home__menuStyle--logos--search"
+          ]
+        }
       },
       "flex-layout.row#homeMenu__row--logos--search":{
-        "title": "",
+        "title": "home menu row logos search",
         "children": [
           "flex-layout.col#megaMenu",
           "image#image__logo",
           "search-bar#home__menu--search"
         ],
         "props": {
-          "colSizing": "auto"
+          "colSizing": "auto",
+          "blockClass": "homeMenu__rowStyle--logos--search"
         }
       },
       "image#image__logo": {
@@ -39,32 +45,16 @@
           }
         }
       },
-      "flex-layout.col#homeMenu__col--items":{
-        "title": "",
-        "children": [
-          "flex-layout.row#homeMenu__items"
-        ]
-      },
       "flex-layout.col#homeMenu__col--minCart--login":{
-        "title": "",
+        "title": "home menu col miniCrat login",
         "children": [
+          "flex-layout.row#homeMenu__items",
           "flex-layout.row#homeMenu__row--minCart--login"
-        ]
-      },
-      "menu-item#homeMenu__logo": {
-        "title": "home menu item shop desktop ",
+        ],
         "props": {
-          "id": "menu-item-itg",
-          "type": "custom",
-          "highlight": false,
-          "itemProps": {
-            "type": "internal",
-            "href": "https://devformacion--itglobers.myvtex.com/",
-            "noFollow": false,
-            "tagTitle": "ITG",
-            "text": "ITG"
-            
-          }
+          "blockClass":[
+            "homeMenu__style--minCart--login"
+          ]
         }
       },
       "menu-item#homeMenu__item--trend":{
@@ -168,7 +158,8 @@
         ],
         "props": {
           "blockClass": "homeMenu__items",
-          "colSizing": "auto"
+          "colSizing": "auto",
+          "preventVerticalStretch": true
         }
       },
       "flex-layout.row#homeMenu__row--minCart--login":{
@@ -178,12 +169,14 @@
           "login"
         ],
         "props": {
-          "colSizing": "auto"
+          "colSizing": "auto",
+          "blockClass": "homeMenu__rowStyle--minicart--login"
         }
       },
       "search-bar#home__menu--search":{
         "props": {
           "displayMode": "clear-button",
+          "placeholder": "Search products...",
           "blockClass":[
               "menu__search-bar"
           ]

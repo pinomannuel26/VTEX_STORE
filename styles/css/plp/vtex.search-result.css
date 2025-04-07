@@ -55,3 +55,12 @@
     height: 40px;
     background-color:  #e8e9eb;
 }
+
+/*.flexCol--containerStyle__result--products :global(.vtex-search-result-3-x-galleryItem--whole ){
+    border: 1px solid teal;
+    width: 290.15px;
+    height: 106.3px;
+    top: 347px;
+    left: 330px;
+    gap: 9px;
+}*/

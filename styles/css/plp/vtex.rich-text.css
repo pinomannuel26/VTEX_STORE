@@ -19,3 +19,11 @@
     color: #1D2734;
  
 }
+.paragraph--summary__shlef__style--envio{
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.76px;
+    letter-spacing: 0px;
+    color: #FA2080;
+}

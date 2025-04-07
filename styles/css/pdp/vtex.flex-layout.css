@@ -1,10 +1,9 @@
 .flexCol--pdp__imagen{
     
-    width: 631px;
-    height: 650px;
+    width: 631px !important;
+    height: 650px !important;
     /*margin-top: 192px;*/
-    margin-left: 72px;
-    gap: 24px;
+    
 }
 .flexColChild--pdp__imagen :global(.vtex-store-components-3-x-productImage){
 
@@ -18,10 +17,13 @@
 
 .flexColChild--pdp__imagen :global(.vtex-store-components-3-x-carouselGaleryThumbs)
 {
-    width: 92px;
+    width: 92px !important;
     height: 650px;
-
+    display: flex;
+    justify-content: center;
+    border: 2px solid red;
 }
+
 .flexColChild--pdp__imagen :global(.vtex-store-components-3-x-figure){
     width: 90px;
     height: 76px;
@@ -30,6 +32,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border: 2px solid blue;
 }
 .flexColChild--pdp__imagen :global(.vtex-store-components-3-x-thumbImg){
     height: 70px;
@@ -38,4 +41,92 @@
 
 .flexColChild--pdp__imagen :global(.vtex-store-components-3-x-caretIcon){
     display: none;
+}
+
+/*PDP information*/
+.flexCol--pdp__information{
+    
+    width: 481px;
+    height: 650px;
+}
+.flexColChild--pdp__information :global(.vtex-store-components-3-x-productNameContainer){
+
+    width: 481px;
+    /*height: 34px;*/
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: 0px;
+    color: #1D2734;
+
+}
+.flexCol--pdp__information :global(.vtex-store-components-3-x-currencyContainer){
+    width: 195px;
+    height: 17px;
+    font-family: "Lexend", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: 0px;
+    color: #1D2734;
+}
+
+:global(.vtex-numeric-stepper__minus-button-container){
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    background-image: url("/arquivos/hpa-hamburguer-menu.svg");
+}
+
+:global(.vtex-store-components-3-x-skuSelectorName){
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: 0px;
+    color: #1D2734;
+}
+.flexRowContent--quantity__miniCart--style{
+    height: 48px !important;
+    border: 2px solid yellow;
+    display: flex;
+    justify-content: flex-start;
+}
+.flexColChild--pdp__information :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    border: 1px solid blue;
+    height: 48px !important;
+}
+.flexColChild--pdp__information :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+    height: 48px !important;
+}
+.flexColChild--pdp__information :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+    display: none;
+}
+.flexColChild--pdp__information :global(.vtex-numeric-stepper-container){
+    border-radius: 0px;
+}
+.flexRowContent--quantity__miniCart--style :global(.vtex-button){
+    width: 312px !important;
+    height: 48px !important;
+}
+.flexRow--especifition__style__pdp{
+    border: 2px solid red;
+    width: 1070px;
+    height: 598px;
+
+}
+:global(.vtex-render__container-id-pdp__table--especification){
+
+    display: flex;
+    justify-content: center;
+}
+:global(.vtex-store-components-3-x-specificationsTitle){
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    letter-spacing: 0px;
+    color: #1D2734;
 }

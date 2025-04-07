@@ -34,18 +34,20 @@
         "title": "Global col product information",
         "props": {
           "preventVerticalStretch": true,
-          "rowGap": 0
+          "rowGap": 0,
+          "blockClass":[
+            "pdp__information"
+          ]
         },
         "children": [
+          "product-highlights",
           "vtex.store-components:product-name#global__product-name", //se hace cuando sale que dos dependencias llaman a componentes con loos mimos nombre 
           "product-price",
-          "product-separator",
-          "product-quantity",
-          "product-identifier.product",
           "sku-selector",
-          "flex-layout.row",
-          "shipping-simulator",
+          "flex-layout.row#pdp__summaryShelf--quantity--miniCart",
+          "product-separator",
           "share"
+          
         ]
       },
       "vtex.store-components:product-name#global__product-name": {//se hace cuando sale que dos dependencias llaman a componentes con loos mimos nombre
@@ -54,5 +56,46 @@
           "showSku": true,
           "showBrandName": true
         }
-      }   
+      },
+      /*MIGA DE PAN PLP*/
+      "flex-layout.row#plp__product-breadcrumb": {
+        "title": "global product breadcrum",
+        "props": {
+          "marginTop": 4
+        },
+        "children": ["breadcrumb"]
+      },
+      "breadcrumb": {
+        "title": "Global breadcrum",
+        "props": {
+            "showOnMobile": true
+        }
+    },
+    "product-highlights": {
+    "props": {
+      "showAll": true,
+      "blockClass": "miHighlight"
+    }
+  },
+  "flex-layout.row#pdp__summaryShelf--quantity--miniCart":{
+    "title": "row summary shelf coiner quantity and minicart",
+    "children": [
+      "product-quantity",
+      "buy-button"
+    ],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "quantity__miniCart--style"
+    }
+  },
+  "flex-layout.row#pdp__table--especification": {
+      "title": "row table especifications pdp",
+      "children": [
+          "product-specifications"
+      ],
+      "props": {
+        "blockClass": "especifition__style__pdp"
+      }
+  }
+   
 }

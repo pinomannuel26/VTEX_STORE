@@ -1,8 +1,76 @@
-.flexRowContent--homeMenu__items{  
-    border: 2px solid blue;
+:global(.vtex-sticky-layout-0-x-container--sticky-header){
+    background: white;
+}
+.flexRow--homeMenuStyle__container{
+    max-width: 1136px;
+    margin: auto;
+    height: 56px;
+    display: flex;
+    align-items: center;
+}
+.flexRowContent--homeMenuStyle__container{
+    gap: 58px;
+}
+.flexRowContent--homeMenuStyle__container .stretchChildrenWidth{
+    margin: 0;
+}
+.flexRowContent--homeMenu__items{
+    display: flex;
+    align-items: center;
+    gap: 13px;
+}
+
+.flexRowContent--homeMenu__rowStyle--logos--search{
+    display: flex;
+    align-items: center;
+    gap: 12px !important;
 }
 /*search*/
+
 .flexRowContent--homeMenuStyle__container :global(.vtex-input-prefix__group){
     border-radius: 100px;
 }
+.flexRowContent--homeMenu__rowStyle--logos--search :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    margin: 0px;
+}
+.flexRowContent--homeMenuStyle__container :global(.vtex-store-components-3-x-searchBarContainer){
+    width: 280px;
+    height: 40px;
+    padding: 0px;
+}
+.flexRowContent--homeMenuStyle__container :global(.vtex-styleguide-9-x-input){
+    background-color: #F0EFF2 ;
+    color: black;
+}
+.flexRowContent--homeMenuStyle__container :global(.vtex-input__suffix){
+    background-color: #F0EFF2;
+    color: black;
+}
 
+/*STYLE MINICART LOGIN*/
+.flexRow--homeMenu__rowStyle--minicart--login{
+    display: flex;
+    align-items: center;
+}
+.flexRowContent--homeMenu__rowStyle--minicart--login :global(.vtex-button){
+    min-height: auto;
+}
+.flexRowContent--homeMenu__rowStyle--minicart--login :global(.vtex-minicart-2-x-openIconContainer){
+    padding: 0;
+}
+.flexRowContent--homeMenu__rowStyle--minicart--login :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    margin: 0;
+}
+
+.flexRowContent--homeMenu__items :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+    margin: 0;
+}
+.flexRowContent--homeMenuStyle__container :global(.vtex-flex-layout-0-x-flexColChild){
+    display: flex;
+    align-items: center;
+}
+.flexCol--homeMenu__style--minCart--login{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}

@@ -7,31 +7,34 @@
 .styledLinkContent--menuDesktop__item{
     font-family: "Lexend", sans-serif;
     font-size: 12px;
-    font-weight: bold;
-    text-align: left;
     font-weight: 400;
     line-height: 100%;
     letter-spacing: 0%;
-    border: 2px solid red;
     color: #1D2734;
-    
 }
-.menuItem--menuDesktop__item{
-    border: 2px solid green;
-}
+
 .menuItem--menuDesktop__item:hover{
     border-bottom: 2px solid black;
 
 }
+/*
 
-.menuContainer{
-    display: flex;
-    align-items: center;
-    
+:global(.vtex-styleguide-9-x-input){
+    font-size: 0px;
+    color: black;
 }
 
-.searchBarInnerContainer--menu__search-bar{
-    border: 2px solid red;
-    border-radius: 60px;
+:global(.vtex-styleguide-9-x-input)::after{
+    content: "Login";
+    font-size: 16px;
+    text-transform: capitalize;
+    color: red;  
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
 }
-
+*/
+.styledLinkContainer--menuDesktop__item{
+    margin: 0;
+}

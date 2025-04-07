@@ -1,10 +1,12 @@
 /*styles row categories*/
 .flexRowContent--heroBanner__rowCategories--organization{
     height: 56px;
-    padding: 8px 0px 0px;
+    padding-top: 8px;
     max-width: 1136px;
     margin: auto;
+    display: flex;
     justify-content: left;
+
 }
 .flexCol--category__column{
     width: 70px;

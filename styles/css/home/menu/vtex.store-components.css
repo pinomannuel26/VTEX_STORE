@@ -1,0 +1,10 @@
+.searchIcon--menu__search-bar{
+    display: none;
+}
+.searchBarIcon--menu__search-bar--search::after{
+    content: "";
+    display: inline-block;
+    width: 17.24px;
+    height:17.24px;
+    background-image: url("/arquivos/Search.svg");
+}

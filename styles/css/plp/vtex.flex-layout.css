@@ -1,10 +1,5 @@
 /*Styles PLP*/
-.flexRowContent--containerStyle__result--order--filter{
-    border: 1px solid black;
-}
-.flexCol--containerStyle__result--name--amount{
-    border: 1px solid greenyellow;    
-}
+
 /*Style navigator*/
 .flexColChild--containerStyle__result--navigator{
     width: 184px;
@@ -24,4 +19,83 @@
 .flexColChild--containerStyle__result--navigator :global(.vtex-checkbox__label){
     width: auto;
     
+}
+ /*product summary shlef*/
+.flexRow--sumamryShelf__containerStyle{
+    width: 290.15px;
+    height: 106.3px;
+    gap: 9px;
+    border: 2px solid green;
+}
+.flexCol--sumamryShelf__col__image  {
+    width: 135.15px !important;
+    height: 106.3px !important;
+    display: flex !important;
+    align-items: center !important;
+}
+:global(.vtex-product-summary-2-x-image){
+    width: 135.15px;
+    height: 95px;
+}
+.flexCol--sumamryShelf__col__information{
+    width: 146px;
+    /*height: 97.54px;*/ 
+}
+
+.flexCol--sumamryShelf__col__information :global(.vtex-product-summary-2-x-nameContainer){
+    padding-top: 0px;
+    padding-bottom: 0px;
+}
+.flexCol--sumamryShelf__col__information :global(.vtex-product-summary-2-x-priceContainer)
+{
+    padding-top: 0px;
+    padding-bottom: 0px;
+    min-height: 0px; 
+    align-items: flex-start;
+}
+.flexColChild--sumamryShelf__col__information :global(.vtex-product-summary-2-x-productNameContainer){
+    width: 149px;
+    height: 39px;
+    text-align: left;
+    border: 1px solid red;
+}
+.flexColChild--sumamryShelf__col__information :global(.vtex-product-summary-2-x-brandName){
+    font-family: "Lexend", sans-serif;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 12.76px;
+    letter-spacing: 0%;
+    color: #1D2734;
+}
+.flexColChild--sumamryShelf__col__information :global(.vtex-product-summary-2-x-price_sellingPriceContainer){
+    width: 96px;
+    height: 25px;
+
+}
+
+.flexColChild--sumamryShelf__col__information :global(.vtex-product-summary-2-x-currencyContainer){
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 21.87px;
+    letter-spacing: 0%;
+    color: #1D2734;
+}
+.flexColChild--sumamryShelf__col__information :global(.vtex-product-summary-2-x-price_installmentContainer){
+    display: none;
+}
+.flexRowContent--summaryShelf__rowEnvio{
+    display: flex;
+    justify-content: left;
+    gap: 7px;
+}
+.imageElement--summary__shlef__style--logo--envio{
+    width: 6.83px;
+    height: 11.39px;
+}
+:global(.vtex-search-result-3-x-galleryItem--whole){
+    border: 2px solid red;
+    width: 290.15px;
+    padding: 0px;
+    /*height: 106.3px;*/
 }

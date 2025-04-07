@@ -3,7 +3,3 @@
     font-size: 12px;
 }
 
-:global(.vtex-login-2-x-label){
-    color: red;
-    content: "login";
-}
