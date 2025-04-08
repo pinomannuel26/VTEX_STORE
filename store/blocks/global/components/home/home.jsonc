@@ -9,10 +9,12 @@
         "title": "slider card text main",
         "children": [
             "rich-text#cardSlider__title--text"
-        ]
+        ],
+        "props": {
+            "blockClass": "home__titleStyle--sliders"
+        }
     },
     "rich-text#cardSlider__title--text":{
-        "title": "card one slider information title",
         "props": { 
           "text": "An amazing product. ",
           "blockClass": "cardSlider__title--textMain"

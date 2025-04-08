@@ -145,7 +145,7 @@
     "flex-layout.row#plp__product-breadcrumb": {
         "title": "global product breadcrum",
         "props": {
-          "marginTop": 4
+          "blockClass": "migaPan__stylePlp"
         },
         "children": ["breadcrumb.search"]
       },
@@ -191,11 +191,11 @@
             "product-summary-name",
             "product-list-price",
             "product-selling-price",
-            "product-summary-price",
             "flex-layout.row#summaryShelf__col--envio--img"
         ],
         "props": {
-            "blockClass": "sumamryShelf__col__information"
+            "blockClass": "sumamryShelf__col__information",
+            "preventVerticalStretch": true
         }
       },
       "flex-layout.row#summaryShelf__col--envio--img":{

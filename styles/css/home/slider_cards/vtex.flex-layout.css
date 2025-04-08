@@ -47,3 +47,8 @@
 .flexRow--cardThree__buttom .stretchChildrenWidth{
     margin: 0;
 }
+
+.flexRowContent--home__titleStyle--sliders{
+    max-width: 1136px;
+    margin: auto;
+}

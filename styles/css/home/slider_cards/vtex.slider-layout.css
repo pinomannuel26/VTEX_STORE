@@ -1,9 +1,11 @@
 
 /*styles slider cards*/
 .sliderLayoutContainer--home__sliderCard{
-    width: 1,092px;
+    max-width: 1136px;
+    margin: auto;
     height: 340px;
     gap: 24px;
+
 }
 .paginationDot--home__sliderCard{
     display: none;

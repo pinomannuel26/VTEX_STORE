@@ -7,7 +7,8 @@
           "marginTop": 4,
           "marginBottom": 7,
           "paddingTop": 7,
-          "paddingBottom": 7
+          "paddingBottom": 7,
+          "blockClass": "container__pdp__style"
           
         },
         "children": [
@@ -42,7 +43,8 @@
         "children": [
           "product-highlights",
           "vtex.store-components:product-name#global__product-name", //se hace cuando sale que dos dependencias llaman a componentes con loos mimos nombre 
-          "product-price",
+          "product-list-price",
+          "product-selling-price",
           "sku-selector",
           "flex-layout.row#pdp__summaryShelf--quantity--miniCart",
           "product-separator",
