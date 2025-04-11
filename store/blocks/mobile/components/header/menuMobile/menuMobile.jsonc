@@ -1,132 +1,79 @@
 {
-  "vtex.menu@2.x:menu#websites2": {
-      "title": "home menu desktop",
-      "children": [
-        "menu-item#homeMenu__logo",
-        "search-bar",
-        "minicart.v2",
-        "login"
-        
-      ],
-      "props": {
-        "blockClass": [
-          "menu-item#homeMenu__container"
-        ]
-      }
-    },
-    "menu-item#homeMenu__logo": {
-      "title": "home menu item shop desktop ",
-      "props": {
-        "id": "menu-item-itg",
-        "type": "custom",
-        "highlight": false,
-        "itemProps": {
-          "type": "internal",
-          "href": "https://devformacion--itglobers.myvtex.com/",
-          "noFollow": false,
-          "tagTitle": "ITG",
-          "text": "ITG"
+  "flex-layout.row#mobile__header__menu": {
+        "title": "home menu mobile",
+        "children": [
+          "flex-layout.col#mobile__menu__col--logos--search",
+          "flex-layout.col#mobile__menu__col--minCart--login"
           
-        },
-        "iconProps": {
-          "id": "bnd-logo",
-          "size": 16,
-          "viewBox": "0 0 16 16",
-          "activeClassName": "rebel-pink",
-          "mutedClassName": "c-action-primary"
-        },
-        "iconToTheRight": true
-      }
-    },
-    "menu-item#homeMenu__item--trend":{
-      "title": "item  menu trend",
-      "props": {
-        "id": "menu-item-trend",
-        "type": "custom",
-        "highlight": false,
-        "blockClass":[
-          "menuDesktop__item"
         ],
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "trend",
-          "text": "Tendencias de ITGlobers"            
+        "props": {
+          "colSizing": "auto",
+          "blockClass": [
+            "mobile__header--menu"
+          ], 
+          "preserveLayoutOnMobile": true
+        }
+      },
+      "flex-layout.col#mobile__menu__col--logos--search":{
+        "title": "home menu col logos search",
+        "children": [
+          "flex-layout.row#mobile__menu__row--logos--search"
+        ],
+        "props": {
+          "blockClass":[
+            //"home__menuStyle--logos--search"
+          ]
+        }
+      },
+      "flex-layout.row#mobile__menu__row--logos--search":{
+        "title": "home menu row logos search",
+        "children": [
+          "flex-layout.row#mobile__home--mega-menu",
+          "image#mobile__image__logo"  
+        ],
+        "props": {
+          "colSizing": "auto",
+          "preserveLayoutOnMobile": true
+          //"blockClass": "homeMenu__rowStyle--logos--search"
+        }
+      },
+      "image#mobile__image__logo": {
+        "title": "image logo menu",
+        "props": {
+          "src": "/arquivos/ITGlogo.svg",
+          "link": {
+            "url": "/"
+          }
+        }
+      },
+      "flex-layout.col#mobile__menu__col--minCart--login":{
+        "title": "home menu col miniCrat login",
+        "children": [
+          "flex-layout.row#mobile__homeMenu__row--minCart--login"
+        ],
+        "props": {
+          "blockClass":[
+           // "homeMenu__style--minCart--login"
+          ]
+        }
+      },
+      "flex-layout.row#mobile__homeMenu__row--minCart--login":{
+        "title": "",
+        "children": [
+          "image#mobile__menu--search",
+          "minicart.v2",
+          "login"
+        ],
+        "props": {
+          "colSizing": "auto", 
+          "preserveLayoutOnMobile": true
+          //"blockClass": "homeMenu__rowStyle--minicart--login"
+        }
+      },
+      "image#mobile__menu--search": {
+        "props": {
+          "src": "/arquivos/Search.svg"
+
         }
       }
-    },
-    "menu-item#homeMenu__item--collection":{
-      "title": "item  menu collection",
-      "props": {
-        "id": "menu-item-collection",
-        "type": "custom",
-        "highlight": false,
-        "blockClass":[
-          "menuDesktop__item"
-        ],
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "collection",
-          "text": "Colección del mes "
-        }
-      }
-    },
-    "menu-item#homeMenu__item--offers":{
-      "title": "item  menu offers",
-      "props": {
-        "id": "menu-item-offers",
-        "type": "custom",
-        "highlight": false,
-        "blockClass":[
-          "menuDesktop__item"
-        ],
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "offers",
-          "text": "Ofertas enero "
-        }
-      }
-    },
-    "menu-item#homeMenu__item--cyber":{
-      "title": "item  menu cyber",
-      "props": {
-        "id": "menu-item-cyber",
-        "type": "custom",
-        "highlight": false,
-        "blockClass":[
-          "menuDesktop__item"
-        ],
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "cyber",
-          "text": "Cyber Monday "
-        }
-      }
-    },
-    "menu-item#homeMenu__item--never":{
-      "title": "item  menu never",
-      "props": {
-        "id": "menu-item-never",
-        "type": "custom",
-        "highlight": false,
-        "blockClass":[
-          "menuDesktop__item"
-        ],
-        "itemProps": {
-          "type": "internal",
-          "href": "#",
-          "noFollow": false,
-          "tagTitle": "never",
-          "text": "Never say never "
-        }
-      }
-    }
-    
 }

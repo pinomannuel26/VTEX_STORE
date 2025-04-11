@@ -1,0 +1,12 @@
+@media (max-width: 1024px) {
+    :global(.vtex-store-drawer-0-x-menuIcon){
+        display: none;
+    }
+    :global(.vtex-store-drawer-0-x-openIconContainer)::after{
+    content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url("/arquivos/hpa-hamburguer-menu.svg");
+    }
+}

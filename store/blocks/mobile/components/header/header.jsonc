@@ -4,7 +4,7 @@
       },
       "flex-layout.row#mobile": {
         "children": [
-          "vtex.menu@2.x:menu#websites2"
+          "flex-layout.row#mobile__header__menu"
         ],
         "props": {
           "blockClass": "main-header-mobile",

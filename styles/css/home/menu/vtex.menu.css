@@ -1,5 +1,4 @@
 .menuContainerNav--homeMenuStyle__container{
-    border: 2px solid red;
     display: flex;
     align-items: center;
 }
@@ -15,26 +14,8 @@
 
 .menuItem--menuDesktop__item:hover{
     border-bottom: 2px solid black;
-
-}
-/*
-
-:global(.vtex-styleguide-9-x-input){
-    font-size: 0px;
-    color: black;
 }
 
-:global(.vtex-styleguide-9-x-input)::after{
-    content: "Login";
-    font-size: 16px;
-    text-transform: capitalize;
-    color: red;  
-    font-family: "Lexend", sans-serif;
-    font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-}
-*/
 .styledLinkContainer--menuDesktop__item{
     margin: 0;
 }

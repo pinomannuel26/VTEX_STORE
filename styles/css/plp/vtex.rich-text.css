@@ -1,6 +1,6 @@
 
 /*STYLES PLP*/
-.paragraph--containerStyle__result--amountText{
+.paragraph--global__plp--titleText{
     font-family: "Lexend", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -9,17 +9,17 @@
     margin-top: 248;
     color: #1D2734;
 }
-.paragraph--container__result--amountText{
+.paragraph--global__plp--amountText{
     font-family: "Lexend", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 100%;
     letter-spacing: 0%;
     margin-top: 289;
-    color: #1D2734;
+    color: #34301d;
  
 }
-.paragraph--summary__shlef__style--envio{
+.paragraph--global__plp--sumaryShlef-envioText{
     font-family: "Lexend", sans-serif;
     font-size: 12px;
     font-weight: 400;

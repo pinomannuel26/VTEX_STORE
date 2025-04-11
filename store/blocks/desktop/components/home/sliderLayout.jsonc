@@ -6,7 +6,7 @@
         ],
         "props": {
            "height": 422,
-           "width":1280,
+           "max-width":1280,
            "images": [
               {
                  "image": "assets/img/sliderLayoutMain/Hero Desktop.png",

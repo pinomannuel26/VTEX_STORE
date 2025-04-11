@@ -5,108 +5,42 @@
             "gallery#global__search",
             "not-found"
         ]
-    },//los filtros de la plp
-    "flex-layout.row#container__result--order--filter": {
-        "title": "container row result layout filter and order",
-        "children": [
-            "flex-layout.col#container__result--name--amount",
-            "flex-layout.col#container__result--filter"
-        ],
-        "props": {
-            "colSizing": "auto",
-            "blockClass": "containerStyle__result--order--filter"
-        }
     },
-    "flex-layout.col#container__result--name--amount": {
-        "title": "container result col name and amount products",
-        "children": [
-            "flex-layout.row#container__result--name",
-            "flex-layout.row#container__result--amount"
-        ],
-        "props": {
-            "blockClass":[
-                "containerStyle__result--name--amount"
-            ]
-        }
-    },
-    "flex-layout.col#container__result--filter": {
-        "title": "container result row filter products",
-        "children": [
-            "order-by.v2#container__result--orderBy"
-        ],
-        "props": {
-            "blockClass":[
-                "container__result--filter"
-            ]
-        }
-    },
-    "flex-layout.row#container__result--name":{
-        "title": "container result row name products",
-        "children": [
-            "rich-text#container__result--nameText"
+    "search-content#global__search--layout":{
+        "title":"search contend",
+        "blocks":[
+            "gallery#global__search",
+            "not-found"
         ]
     },
-    "flex-layout.row#container__result--amount":{
-        "title": "container result row amount products",
-        "children": [
-            "rich-text#container__result--amountText"
-        ]
-    },
-    "rich-text#container__result--nameText":{
-        "props": {
-            "text": "Clothing, Shoes and Accesories",
-            "blockClass": "containerStyle__result--amountText"
-        }
-    },
-    "rich-text#container__result--amountText":{
-        "props": {
-            "text": "18 productos encontrados",
-            "blockClass": "container__result--amountText"
-        }
-    },//filtro de ordenar por
-    "order-by.v2#container__result--orderBy": {
+    "order-by.v2#global__plp--orderBy": {
         "title":"order by result layout"
     },
-    "flex-layout.row#container__result--navigator--products": {
-        "title": "container resul col navigator and products",
-        "children": [
-          "flex-layout.col#container__result--navigator",
-          "flex-layout.col#container__result--products"  
-        ],
+    "rich-text#global__plp--titleText":{
         "props": {
-            "colSizing": "auto",
-            "blockClass": "containerStyle__result--navigator--products"
+            "text": "Clothing, Shoes and Accesories",
+            "blockClass": "global__plp--titleText"
         }
     },
-    "flex-layout.col#container__result--navigator":{
-        "title": "container result col navigator",
-        "children": [
-            "filter-navigator.v3"        
-        ],
+    "rich-text#global__plp--amountText":{
         "props": {
-            "blockClass":[
-                "containerStyle__result--navigator"
-            ]
+            "text": "18 productos encontrados",
+            "blockClass": "global__plp--amountText"
         }
     },
-    "flex-layout.col#container__result--products":{
-        "title":"container result col products",
-        "children": [
-            "search-content#global__search--layout",
-            "flex-layout.row#plp__verMas"
-        ],
-        "props": {
-            "blockClass":[
-                "containerStyle__result--products"
-            ]
-        }
+    "filter-navigator.v3#global__plp--navigator": {
+        "title": "filter navigator result layout"
     },
-    "filter-navigator.v3": {//filtro de las categorias, etc
-        "title": "filter navigator result layout",
+    "flex-layout.row#global__plp--wrapper-verMas":{
+        "title": "row icon ver mas plp search products",
+        "children": [
+            "image#global__plp--img-vermas"
+        ]
+    },
+    "image#global__plp--img-vermas":{
+        "title": "icon ver mas plp",
         "props": {
-            "blocksClass":[
-                "containerStyles__navigator"
-            ]
+            "src": "/arquivos/Tag.svg"
         }
     },
     "gallery#global__search": {
@@ -125,7 +59,8 @@
                     "component": "OneOrTwoLineSummary",
                     "itemsPerRow": {
                         "desktop": 3,
-                        "mobile": 1
+                        "tablet": 2,
+                        "phone": 1
                     }
                 },
                 {
@@ -137,15 +72,15 @@
                     }
                 }
             ],
-            "OneOrTwoLineSummary": "product-summary.shelf#plp__summary__shelf",
-            "ManyByLineSummary": "product-summary.shelf#plp__summary__shelf"
+            "OneOrTwoLineSummary": "product-summary.shelf#global__plp--summary-shelf",
+            "ManyByLineSummary": "product-summary.shelf#global__plp--summary-shelf"
         }
     },
     /*MIGA DE PAN PLP*/
-    "flex-layout.row#plp__product-breadcrumb": {
-        "title": "global product breadcrum",
+    "flex-layout.row#global__plp--breadcrumb": {
+        "title": "breadcrum global plp",
         "props": {
-          "blockClass": "migaPan__stylePlp"
+          "blockClass": "global__plp--breadcrumb"
         },
         "children": ["breadcrumb.search"]
       },
@@ -154,84 +89,72 @@
           "showOnMobile": true
         }
       },
-    /*summary.shelf*/
-    "product-summary.shelf#plp__summary__shelf": {
-        "title": "product summary shlef plp",
-        "children": [
-            "flex-layout.row#plp__row__summryShelf"
+      /*summary.shelf plp*/
+      "product-summary.shelf#global__plp--summary-shelf": {
+          "title": "product summary shlef plp",
+          "children": [
+              "flex-layout.row#global__plp--wrapper-summryShelf"
+            ],
+            "props": {
+                "blockClass":[
+                    "summary__shlef__container--style"
+                ]
+            }          
+        },
+        "flex-layout.row#global__plp--wrapper-summryShelf":{
+          "title": "row container product summary shelf",
+          "children": [
+              "flex-layout.col#global__plp--wrapper-summryShelf-image",
+              "flex-layout.col#global__plp--wrapper-summryShelf-infoProduct"
           ],
           "props": {
-              "blockClass":[
-                  "summary__shlef__container--style"
-              ]
-          }          
-      },
-      "flex-layout.row#plp__row__summryShelf":{
-        "title": "row container product summary shelf",
-        "children": [
-            "flex-layout.col#plp__col__summryShelf--image",
-            "flex-layout.col#plp__col__summryShelf--infoProduct"
-        ],
-        "props": {
-            "blockClass": "sumamryShelf__containerStyle"
-        }
-      },
-      "flex-layout.col#plp__col__summryShelf--image":{
-        "title": "col container image product summary shelf",
-        "children": [
-            "product-summary-image"
-        ],
-        "props": {
-            "blockClass": "sumamryShelf__col__image"
-        }
-      },
-      "flex-layout.col#plp__col__summryShelf--infoProduct":{
-        "title": "col container information product summary shelf",
-        "children": [
-            "product-summary-name",
-            "product-list-price",
-            "product-selling-price",
-            "flex-layout.row#summaryShelf__col--envio--img"
-        ],
-        "props": {
-            "blockClass": "sumamryShelf__col__information",
-            "preventVerticalStretch": true
-        }
-      },
-      "flex-layout.row#summaryShelf__col--envio--img":{
-        "title": "col summar shlef envio image",
-        "children": [
-            "rich-text#plp__sumaryShlef--envio",
-            "image#summaryShlef__envio--image"
-        ],
-        "props": {
-            "colSizing": "auto",
-            "blockClass": "summaryShelf__rowEnvio"
-        }
-      },
-      "rich-text#plp__sumaryShlef--envio":{
-        "props": { 
-          "text": "Envio gratis ",
-          "blockClass": "summary__shlef__style--envio"
-        }  
-      },
-      "image#summaryShlef__envio--image":{
-        "title": "plp image envio",
-        "props": {
-            "src": "/arquivos/flash.svg",
-             "blockClass": "summary__shlef__style--logo--envio"
-        }
-    },
-    "flex-layout.row#plp__verMas":{
-        "title": "icon ver mas plp search products",
-        "children": [
-            "image#plp__searchProducts--vermas"
-        ]
-    },
-    "image#plp__searchProducts--vermas":{
-        "title": "icon ver mas plp",
-        "props": {
-            "src": "/arquivos/Tag.svg"
-        }
-    }
+              "blockClass": "sumamryShelf__containerStyle"
+          }
+        },
+        "flex-layout.col#global__plp--wrapper-summryShelf-image":{
+          "title": "col container image product summary shelf",
+          "children": [
+              "product-summary-image"
+          ],
+          "props": {
+              "blockClass": "sumamryShelf__col__image"
+          }
+        },
+        "flex-layout.col#global__plp--wrapper-summryShelf-infoProduct":{
+          "title": "col container information product summary shelf",
+          "children": [
+              "product-summary-name",
+              "product-list-price",
+              "product-selling-price",
+              "flex-layout.row#global__plp--summaryShelf-envio-img"
+          ],
+          "props": {
+              "blockClass": "global__plp--wrapper-summryShelf-infoProduct",
+              "preventVerticalStretch": true
+          }
+        },
+        "flex-layout.row#global__plp--summaryShelf-envio-img":{
+          "title": "col summar shlef envio image",
+          "children": [
+              "rich-text#global__plp--sumaryShlef-envioText",
+              "image#global__plp--summaryShlef-envioImg"
+          ],
+          "props": {
+              "colSizing": "auto",
+              "blockClass": "global__plp--summaryShelf-envio-img"
+          }
+        },
+        "rich-text#global__plp--sumaryShlef-envioText":{
+          "props": { 
+            "text": "Envio gratis ",
+            "blockClass": "global__plp--sumaryShlef-envioText"
+          }  
+        },
+        "image#global__plp--summaryShlef-envioImg":{
+          "title": "plp image envio",
+          "props": {
+              "src": "/arquivos/flash.svg",
+               "blockClass": "global__plp--summaryShlef-envioImg"
+          }
+      }
 }

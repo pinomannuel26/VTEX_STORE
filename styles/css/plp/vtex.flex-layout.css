@@ -1,11 +1,11 @@
 /*Styles PLP*/
 
-.flexColChild--containerStyle__result--navigator :global(.vtex-checkbox__line-container){
+.flexColChild--desktop__plp--wrapper-navigator :global(.vtex-checkbox__line-container){
     display: flex !important;
     flex-direction: row !important;
 
 }
-.flexColChild--containerStyle__result--navigator :global(.vtex-checkbox__label){
+.flexColChild--desktop__plp--wrapper-navigator :global(.vtex-checkbox__label){
     width: auto;
     
 }
@@ -20,13 +20,13 @@
     height: auto;
 }
 
-.flexCol--sumamryShelf__col__information :global(.vtex-product-summary-2-x-nameContainer){
+.flexCol--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-nameContainer){
     padding-top: 0px;
     padding-bottom: 0px;
     display: flex;
     justify-content: left;
 }
-.flexCol--sumamryShelf__col__information :global(.vtex-product-summary-2-x-priceContainer)
+.flexCol--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-priceContainer)
 {
     padding-top: 0px;
     padding-bottom: 0px;
@@ -34,7 +34,7 @@
     align-items: flex-start;
 }
 
-.flexColChild--sumamryShelf__col__information :global(.vtex-product-summary-2-x-brandName){
+.flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-brandName){
     font-family: "Lexend", sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -43,11 +43,11 @@
     color: #1D2734;
     
 }
-.flexColChild--sumamryShelf__col__information  {
+.flexColChild--global__plp--wrapper-summryShelf-infoProduct  {
     text-align: left;
 }
 
-.flexColChild--sumamryShelf__col__information :global(.vtex-product-price-1-x-currencyContainer){
+.flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-price-1-x-currencyContainer){
     font-family: "Lexend", sans-serif;
     font-size: 20px;
     font-weight: 600;
@@ -56,48 +56,163 @@
     color: #1D2734;
 
 }
-.flexColChild--sumamryShelf__col__information :global(.vtex-product-summary-2-x-price_installmentContainer){
+.flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-price_installmentContainer){
     display: none;
 }
-.flexRowContent--summaryShelf__rowEnvio{
+.flexRowContent--global__plp--summaryShelf-envio-img{
     display: flex;
     justify-content: left;
     gap: 7px;
 }
-.imageElement--summary__shlef__style--logo--envio{
+.imageElement--global__plp--summaryShlef-envioImg{
     width: 6.83px;
     height: 11.39px;
 }
-.flexColChild--containerStyle__result--products :global(.vtex-search-result-3-x-galleryItem--whole){
+.flexColChild--desktop__plp--wrapper-products :global(.vtex-search-result-3-x-galleryItem--whole){
     padding: 0px;
     /*height: 106.3px;*/
 }
-.flexRowContent--migaPan__stylePlp{
+.flexRowContent--global__plp--breadcrumb{
     max-width: 1136px;
     margin: auto;
     padding: 0;
 }
-.flexRowContent--migaPan__stylePlp :global(.vtex-breadcrumb-1-x-container){
+.flexRowContent--global__plp--breadcrumb :global(.vtex-breadcrumb-1-x-container){
     padding: 0;
 }
-.flexRowContent--containerStyle__result--order--filter{
+.flexRowContent--desktop__plp--titleWrapper{
    max-width: 1136px;
    margin: auto;
    margin-top: 16px;
 }
-.flexRowContent--containerStyle__result--navigator--products{
+.flexRowContent--desktop__plp--wrapper-navigator-products{
 
     max-width: 1136px;
     margin: auto;
     gap: 74px;
 }
 /*Style navigator*/
-.flexColChild--containerStyle__result--navigator{
+.flexColChild--desktop__plp--wrapper-navigator{
     width: 184px;
     height: 516px;
     
 }
-.flexRow--containerStyle__result--navigator--products{
+.flexRow--desktop__plp--wrapper-navigator-products{
     margin-top: 40px;
 }
 
+.flexColChild--pdp__information :global(.vtex-product-price-1-x-listPriceValue ) :local(span){
+    color: red;
+}
+/*Style mobile*/
+@media (max-width: 1024px) {
+    
+    .flexColChild--desktop__plp--wrapper-navigator :global(.vtex-checkbox__line-container){
+        display: flex !important;
+        flex-direction: row !important;
+        
+
+    }
+    .flexColChild--desktop__plp--wrapper-navigator :global(.vtex-checkbox__label){
+        width: auto;
+       
+    }
+    /*product summary shlef*/
+
+    .flexCol--sumamryShelf__col__image  {
+        display: flex !important;
+        align-items: center !important;
+        border: 3px solid red;
+    }
+    .flexColChild--sumamryShelf__col__image :global(.vtex-product-summary-2-x-image){
+        max-width: 135px;
+        height: auto;
+        border: 4px solid green;
+    }
+
+    .flexCol--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-nameContainer){
+        padding-top: 0px;
+        padding-bottom: 0px;
+        display: flex;
+        justify-content: left;
+        border: 2px solid blue;
+    }
+    .flexCol--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-priceContainer)
+    {
+        padding-top: 0px;
+        padding-bottom: 0px;
+        min-height: 0px; 
+        align-items: flex-start;
+    }
+
+    .flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-brandName){
+        font-family: "Lexend", sans-serif;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 12.76px;
+        letter-spacing: 0%;
+        color: #1D2734;
+        
+    }
+    .flexColChild--global__plp--wrapper-summryShelf-infoProduct  {
+        text-align: left;
+    }
+
+    .flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-price-1-x-currencyContainer){
+        font-family: "Lexend", sans-serif;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 21.87px;
+        letter-spacing: 0%;
+        color: #1D2734;
+
+    }
+    .flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-price_installmentContainer){
+        display: none;
+    }
+    .flexRowContent--global__plp--summaryShelf-envio-img{
+        display: flex;
+        justify-content: left;
+        gap: 7px;
+    }
+    .imageElement--global__plp--summaryShlef-envioImg{
+        width: 6.83px;
+        height: 11.39px;
+    }
+    .flexColChild--desktop__plp--wrapper-products :global(.vtex-search-result-3-x-galleryItem--whole){
+        padding: 0px;
+        /*height: 106.3px;*/
+    }
+    .flexRowContent--global__plp--breadcrumb{
+        max-width: 1136px;
+        margin: auto;
+        padding: 0;
+    }
+    .flexRowContent--global__plp—breadcrumb :global(.vtex-breadcrumb-1-x-container){
+        padding: 0;
+    }
+    .flexRowContent--desktop__plp--titleWrapper{
+    max-width: 1136px;
+    margin: auto;
+    margin-top: 16px;
+    }
+    .flexRowContent--desktop__plp--wrapper-navigator-products{
+
+        max-width: 1136px;
+        margin: auto;
+        gap: 74px;
+    }
+    /*Style navigator*/
+    .flexColChild--desktop__plp--wrapper-navigator{
+        width: 184px;
+        height: 516px;
+        
+    }
+    .flexRow--desktop__plp--wrapper-navigator-products{
+        margin-top: 40px;
+    }
+
+    .flexColChild--pdp__information :global(.vtex-product-price-1-x-listPriceValue ) :local(span){
+        color: red;
+    }
+}

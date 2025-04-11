@@ -47,3 +47,22 @@
 }
 
 
+/*Style mobile*/
+@media (max-width: 1024px) {
+
+
+/*texto interno de categorias, subcategorias, etc*/
+
+/*estulo order by*/
+.filterPopupTitle{
+    /*font-size: 12px;*/
+}
+.orderByButton {
+    width: 147px;
+    height: 40px;
+    background-color:  #e8e9eb;
+}
+
+
+
+}

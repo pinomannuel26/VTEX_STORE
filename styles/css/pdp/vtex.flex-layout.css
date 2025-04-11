@@ -134,6 +134,7 @@
     line-height: 16.8px;
     letter-spacing: 0px;
     color: #1D2734;
+    
 }
 /*estilos solo a las filas impares*/
 .flexRowContent--especifition__style__pdp :global(.vtex-store-components-3-x-specificationsTableRow):nth-child(odd){

@@ -11,5 +11,18 @@
     background-image: url("/arquivos/hpa-hamburguer-menu.svg");
   
 }
-
+@media (max-width: 1024px){
+    .triggerButtonIcon {
+        display: none;
+    }
+    
+    .triggerContainer::after{
+        content: "";
+        display: inline-block;
+        width: 24px;
+        height: 24px;
+        background-image: url("/arquivos/hpa-hamburguer-menu.svg");
+    }
+    
+}
 

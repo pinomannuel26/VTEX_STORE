@@ -2,9 +2,9 @@
     "search-result-layout.desktop": {
         "children": [
             "flex-layout.row#homeDesktop__heroBanner",
-            "flex-layout.row#plp__product-breadcrumb",
-            "flex-layout.row#container__result--order--filter",//los filtros de la plp
-            "flex-layout.row#container__result--navigator--products"
+            "flex-layout.row#global__plp--breadcrumb",
+            "flex-layout.row#desktop__plp--titleWrapper",
+            "flex-layout.row#desktop__plp--wrapper-navigator-products"
         ],
         "props": {
             "preventRouteChange": true

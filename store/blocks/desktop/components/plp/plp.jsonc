@@ -1,0 +1,72 @@
+{
+    "flex-layout.row#desktop__plp--titleWrapper": {
+        "title": "container row title and order by",
+        "children": [
+            "flex-layout.col#desktop__plp--wrapper-name-amount",
+            "flex-layout.col#desktop__plp--wrapper-orderby"
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "desktop__plp--titleWrapper"
+        }
+    },
+    "flex-layout.col#desktop__plp--wrapper-name-amount": {
+        "title": "container result col name and amount products",
+        "children": [
+            "flex-layout.row#desktop__plp--wrapper-result-name",
+            "flex-layout.row#desktop__plp--wrapper-amount"
+        ]
+    },
+    "flex-layout.col#desktop__plp--wrapper-orderby": {
+        "title": "container col filter order by",
+        "children": [
+            "order-by.v2#global__plp--orderBy"
+        ]
+    },
+    "flex-layout.row#desktop__plp--wrapper-result-name":{
+        "title": "container row result name products",
+        "children": [
+            "rich-text#global__plp--titleText"
+        ]
+    },
+    "flex-layout.row#desktop__plp--wrapper-amount":{
+        "title": "container row result amount products",
+        "children": [
+            "rich-text#global__plp--amountText"
+        ]
+    },
+    "flex-layout.row#desktop__plp--wrapper-navigator-products": {
+        "title": "container row navigator and products",
+        "children": [
+          "flex-layout.col#desktop__plp--wrapper-navigator",
+          "flex-layout.col#desktop__plp--wrapper-products"  
+        ],
+        "props": {
+            "colSizing": "auto",
+            "blockClass": "desktop__plp--wrapper-navigator-products"
+        }
+    },
+   "flex-layout.col#desktop__plp--wrapper-navigator":{
+        "title": "container col navigator",
+        "children": [
+            "filter-navigator.v3#global__plp--navigator"        
+        ],
+        "props": {
+            "blockClass":[
+                "desktop__plp--wrapper-navigator"
+            ]
+        }
+    },
+    "flex-layout.col#desktop__plp--wrapper-products":{
+        "title":"container col products",
+        "children": [
+            "search-content#global__search--layout",
+            "flex-layout.row#global__plp--wrapper-verMas"
+        ],
+        "props": {
+            "blockClass":[
+                "desktop__plp--wrapper-products"
+            ]
+        }
+    }
+}

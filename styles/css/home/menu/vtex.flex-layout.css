@@ -7,6 +7,7 @@
     height: 56px;
     display: flex;
     align-items: center;
+
 }
 .flexRowContent--homeMenuStyle__container{
     gap: 58px;
@@ -73,4 +74,34 @@
     display: flex;
     flex-direction: row;
     gap: 40px;
+}
+
+/*Style mobile*/
+@media (max-width: 1024px) {
+    :global(.vtex-sticky-layout-0-x-container){
+        background: rgb(255, 255, 255);
+    }
+    .flexRow--homeMenuStyle__container{
+        max-width: 100vw !important;
+        width: 100vw !important;
+        margin: 0 !important;
+        height: 72px;
+        border: 1px solid red;
+        padding: 0 16px;
+    }
+    .flexRowContent--homeMenuStyle__container{
+        gap: 120px;
+    }
+    .flexRowContent--homeMenu__rowStyle--logos--search{
+        gap: 8px !important;
+    }
+    
+    /*STYLE MINICART LOGIN*/
+ 
+    .flexCol--homeMenu__style--minCart--login{
+
+        gap: 8px !important;
+    }
+    
+
 }
