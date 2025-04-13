@@ -3,23 +3,7 @@
     margin: auto;
     height: 378px;
 }
-.caretIcon--home__sliderCard{
-    display: none;
-}
-.sliderLeftArrow--home__sliderCard::after{
-    content: "";
-    display: inline-block;
-    width: 24px;
-    height:24px;
-    background-image: url("/arquivos/nav-arrow--right.svg");
-}
-.sliderRightArrow--home__sliderCard::after{
-    content: "";
-    display: inline-block;
-    width: 24px;
-    height:24px;
-    background-image: url("/arquivos/nav-arrow.svg");
-}
+
 .caretIcon--slider_products{
     display: none;
 }
@@ -36,9 +20,6 @@
     width: 24px;
     height:24px;
     background-image: url("/arquivos/nav-arrow.svg");
-}
-.sliderTrackContainer--home__sliderCard{
-    padding: 0 20px;
 }
 
 .sliderLayoutContainer--slider_products{

@@ -1,5 +1,5 @@
 /*styles row categories*/
-.flexRowContent--heroBanner__rowCategories--organization{
+.flexRowContent--global__home--heroBanner{
     height: 56px;
     padding-top: 8px;
     max-width: 1136px;
@@ -8,7 +8,7 @@
     justify-content: left;
 
 }
-.flexCol--category__column{
+.flexCol--global__home-heroBanner--columns{
     width: 70px;
     height: 47px;
     gap: 4px;
@@ -16,6 +16,6 @@
     text-align: center;
     max-width: none;
 }
-.flexCol--category__column:hover{
+.flexCol--global__home-heroBanner--columns:hover{
     border-bottom: 3px solid black;  
 }

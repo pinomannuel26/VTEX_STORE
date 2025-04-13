@@ -1,6 +1,6 @@
 
 {
-    "minicart.v2": {
+    "minicart.v2#global__header-main--miniCart": {
       "props": {
         "MinicartIcon": "icon-cart#minicart-icon"
       },

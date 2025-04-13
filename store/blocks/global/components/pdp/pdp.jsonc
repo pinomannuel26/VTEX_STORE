@@ -1,6 +1,6 @@
 {
-    "flex-layout.row#product-main": {
-        "title": "Global of main product",
+    "flex-layout.row#global__pdp--product-main": {
+        "title": "Global pdp of main product",
         "props": {
           "colGap": 7,
           "rowGap": 7,
@@ -8,45 +8,44 @@
           "marginBottom": 7,
           "paddingTop": 7,
           "paddingBottom": 7,
-          "blockClass": "container__pdp__style"
+          "blockClass": "global__pdp--product-main"
           
         },
         "children": [
-            "flex-layout.col#product__image",
-             "flex-layout.col#product__information"
-            ]
+            "flex-layout.col#global__wrapper--product-image",
+            "flex-layout.col#global__wrapper--product-information"
+          ]
       },
-      "flex-layout.col#product__image": {
-        "title": "Global col product image",
+      "flex-layout.col#global__wrapper--product-image": {
+        "title": "global col product image",
         "props": {
           "width": "60%",
           "rowGap": 0, 
-          "blockClass": "pdp__imagen"
+          "blockClass": "global__wrapper--product-image"
         },
-        "children": ["product-images#global__pdp"]
+        "children": ["product-images#global__pdp--images"]
       },
-      "product-images#global__pdp": {
+      "product-images#global__pdp--images": {
         "props": {
           "displayThumbnailsArrows": true
           
         }
       },
-      "flex-layout.col#product__information": {
+      "flex-layout.col#global__wrapper--product-information": {
         "title": "Global col product information",
         "props": {
           "preventVerticalStretch": true,
           "rowGap": 0,
           "blockClass":[
-            "pdp__information"
+            "global__wrapper--product-information"
           ]
         },
         "children": [
-          "product-highlights",
           "vtex.store-components:product-name#global__product-name", //se hace cuando sale que dos dependencias llaman a componentes con loos mimos nombre 
           "product-list-price",
           "product-selling-price",
           "sku-selector",
-          "flex-layout.row#pdp__summaryShelf--quantity--miniCart",
+          "flex-layout.row#global__pdp--wrapper-quantity-miniCart",
           "product-separator",
           "share"
           
@@ -59,45 +58,25 @@
           "showBrandName": true
         }
       },
-      /*MIGA DE PAN PLP*/
-      "flex-layout.row#plp__product-breadcrumb": {
-        "title": "global product breadcrum",
-        "props": {
-          "marginTop": 4
-        },
-        "children": ["breadcrumb"]
-      },
-      "breadcrumb": {
-        "title": "Global breadcrum",
-        "props": {
-            "showOnMobile": true
-        }
-    },
-    "product-highlights": {
-    "props": {
-      "showAll": true,
-      "blockClass": "miHighlight"
-    }
-  },
-  "flex-layout.row#pdp__summaryShelf--quantity--miniCart":{
-    "title": "row summary shelf coiner quantity and minicart",
-    "children": [
-      "product-quantity",
-      "buy-button"
-    ],
-    "props": {
-      "colSizing": "auto",
-      "blockClass": "quantity__miniCart--style"
-    }
-  },
-  "flex-layout.row#pdp__table--especification": {
-      "title": "row table especifications pdp",
+    "flex-layout.row#global__pdp--wrapper-quantity-miniCart":{
+      "title": "row container quantity and minicart",
       "children": [
-          "product-specifications"
+        "product-quantity",
+        "buy-button"
       ],
       "props": {
-        "blockClass": "especifition__style__pdp"
+        "colSizing": "auto",
+        "blockClass": "global__pdp--wrapper-quantity-miniCart"
       }
-  }
+    },
+    "flex-layout.row#global__pdp--table-especification": {
+        "title": "row table especifications pdp",
+        "children": [
+            "product-specifications"
+        ],
+        "props": {
+          "blockClass": "global__pdp--table-especification"
+        }
+    }
    
 }

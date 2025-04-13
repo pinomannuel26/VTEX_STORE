@@ -94,22 +94,14 @@
           "title": "product summary shlef plp",
           "children": [
               "flex-layout.row#global__plp--wrapper-summryShelf"
-            ],
-            "props": {
-                "blockClass":[
-                    "summary__shlef__container--style"
-                ]
-            }          
+            ]         
         },
         "flex-layout.row#global__plp--wrapper-summryShelf":{
           "title": "row container product summary shelf",
           "children": [
               "flex-layout.col#global__plp--wrapper-summryShelf-image",
               "flex-layout.col#global__plp--wrapper-summryShelf-infoProduct"
-          ],
-          "props": {
-              "blockClass": "sumamryShelf__containerStyle"
-          }
+          ]
         },
         "flex-layout.col#global__plp--wrapper-summryShelf-image":{
           "title": "col container image product summary shelf",
@@ -117,7 +109,7 @@
               "product-summary-image"
           ],
           "props": {
-              "blockClass": "sumamryShelf__col__image"
+              "blockClass": "global__plp--wrapper-summryShelf-image"
           }
         },
         "flex-layout.col#global__plp--wrapper-summryShelf-infoProduct":{

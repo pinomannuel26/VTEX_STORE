@@ -1,7 +1,7 @@
 {
     "flex-layout.row#homeMobile__sliderCategories":{
         "children": [
-            "slider-layout#sliderMobile__categories"
+            //"slider-layout#sliderMobile__categories"
         ]
     },
     "flex-layout.row#homeMobile__sliderLayout":{

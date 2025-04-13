@@ -1,0 +1,36 @@
+{
+    "list-context.image-list#desktop__home--sliderLayout-image": {
+        "title": "Slider layout image of desktop",
+        "children": [
+            "slider-layout#desktop__home--sliderLayout-transition"
+        ],
+        "props": {
+           "height": 422,
+           "max-width":1280,
+           "images": [
+              {
+                 "image": "/arquivos/Hero Desktop.png",
+                 "description": "image 1"
+              },
+              {
+                 "image": "/arquivos/Hero Desktop.png",
+                 "description": "image 2"
+              }
+           ]
+        }
+     },
+     "slider-layout#desktop__home--sliderLayout-transition": {
+        "title": "sliderLayout main control transition images",
+        "props": {
+           "itemsPerPage": {
+              "desktop": 1
+           },
+           "fullWidth": true,
+           "showNavigationArrows": "never",
+           "showPaginationDots": "never",
+           "autoplay": {
+              "timeout": 8000
+           }
+        }
+     }
+}

@@ -1,14 +1,11 @@
 {
-    "login": {
+    "login#global__header-main--login": {
         "props": {
           "emailAndPasswordTitle": "LOG-IN",
           "accessCodeTitle": "Código para la formacion",
           "emailPlaceholder": "soy un placeholder en formacion POPUP",
           "passwordPlaceholder": "password",
-          "showPasswordVerificationIntoTooltip": true,
-          "blockClass":[
-            "homeMenuStyle__login"
-          ]
+          "showPasswordVerificationIntoTooltip": true
         }
       }
 }

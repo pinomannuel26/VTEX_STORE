@@ -1,0 +1,45 @@
+{
+    "flex-layout.row#desktop__header--wrapper-menu": {
+        "title": "cotainer menu desktop",
+        "children": [
+          "flex-layout.col#desktop__header-menu--wrapperCol-logos-search",
+          "flex-layout.col#desktop__header-menu--wrapperCol-items-cart-login"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "blockClass": [
+            "desktop__header--wrapper-menu"
+          ]
+        }
+      },
+      "flex-layout.col#desktop__header-menu--wrapperCol-logos-search":{
+        "title": "container logos search menu desktop",
+        "children": [
+          "flex-layout.row#desktop__header-menu--wrapperRow-logos-search"
+        ]
+      },
+      "flex-layout.row#desktop__header-menu--wrapperRow-logos-search":{
+        "title": "wrapper Row header menu desktop - logos and search",
+        "children": [
+          "flex-layout.col#desktop__header--megaMenu",
+          "image#global__header-menu--imgLogo",
+          "search-bar#global__header-menu--search"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "blockClass": "desktop__header-menu--wrapperRow-logos-search"
+        }
+      },
+      "flex-layout.col#desktop__header-menu--wrapperCol-items-cart-login":{
+        "title": "wrapper row header items, miniCrat and login",
+        "children": [
+          "flex-layout.row#global__header-menu--wraperRow-items",
+          "flex-layout.row#global__header-main--wrapperRow-minCart-login"
+        ],
+        "props": {
+          "blockClass":[
+            "desktop__header-menu--wrapperCol-items-cart-login"
+          ]
+        }
+      }
+}

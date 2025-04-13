@@ -1,0 +1,35 @@
+
+/*styles slider cards*/
+.sliderLayoutContainer--global__home--sliderLayout-Cards{
+    max-width: 1136px;
+    margin: auto;
+    height: 340px;
+    gap: 24px;
+
+}
+.paginationDot--global__home--sliderLayout-Cards{
+    display: none;
+}
+.paginationDot--slider_products{
+    display: none;
+}
+.caretIcon--global__home--sliderLayout-Cards{
+    display: none;
+}
+.sliderLeftArrow--global__home--sliderLayout-Cards::after{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height:24px;
+    background-image: url("/arquivos/nav-arrow--right.svg");
+}
+.sliderRightArrow--global__home--sliderLayout-Cards::after{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height:24px;
+    background-image: url("/arquivos/nav-arrow.svg");
+}
+.sliderTrackContainer--global__home--sliderLayout-Cards{
+    padding: 0 20px;
+}

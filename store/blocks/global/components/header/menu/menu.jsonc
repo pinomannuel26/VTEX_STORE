@@ -1,0 +1,136 @@
+{
+   "image#global__header-menu--imgLogo": {
+        "title": "image global logo menu",
+        "props": {
+          "src": "/arquivos/ITGlogo.svg",
+          "link": {
+            "url": "/"
+          }
+        }
+      },
+      "search-bar#global__header-menu--search":{
+        "props": {
+          "displayMode": "clear-button",
+          "placeholder": "Search products...",
+          "blockClass":[
+              "global__header-menu--search"
+          ]
+        }
+      },
+      "flex-layout.row#global__header-menu--wraperRow-items":{
+        "title": "global menu items",
+        "children": [
+          "menu-item#global__header-main--item-trend",
+          "menu-item#global__header-main--item-collection",
+          "menu-item#global__header-main--item-offers",
+          "menu-item#global__header-main--item-cyber",
+          "menu-item#global__header-main--item-never"
+        ],
+        "props": {
+          "blockClass": "global__header-menu--wraperRow-items",
+          "colSizing": "auto",
+          "preventVerticalStretch": true
+        }
+      },
+      "menu-item#global__header-main--item-trend":{
+        "title": "global item  menu trend",
+        "props": {
+          "id": "menu-item-trend",
+          "type": "custom",
+          "highlight": false,
+          "blockClass":[
+            "global__header-main--all-item"
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "trend",
+            "text": "Tendencias de ITGlobers"            
+          }
+        }
+      },
+      "menu-item#global__header-main--item-collection":{
+        "title": "item  menu collection",
+        "props": {
+          "id": "menu-item-collection",
+          "type": "custom",
+          "highlight": false,
+          "blockClass":[
+            "global__header-main--all-item"
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "collection",
+            "text": "Colección del mes "
+          }
+        }
+      },
+      "menu-item#global__header-main--item-offers":{
+        "title": "item  menu offers",
+        "props": {
+          "id": "menu-item-offers",
+          "type": "custom",
+          "highlight": false,
+          "blockClass":[
+            "global__header-main--all-item"
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "offers",
+            "text": "Ofertas enero "
+          }
+        }
+      },
+      "menu-item#global__header-main--item-cyber":{
+        "title": "item  menu cyber",
+        "props": {
+          "id": "menu-item-cyber",
+          "type": "custom",
+          "highlight": false,
+          "blockClass":[
+            "global__header-main--all-item"
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "cyber",
+            "text": "Cyber Monday "
+          }
+        }
+      },
+      "menu-item#global__header-main--item-never":{
+        "title": "item  menu never",
+        "props": {
+          "id": "menu-item-never",
+          "type": "custom",
+          "highlight": false,
+          "blockClass":[
+            "global__header-main--all-item"
+          ],
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "never",
+            "text": "Never say never "
+          }
+        }
+      },
+      "flex-layout.row#global__header-main--wrapperRow-minCart-login":{
+        "title": "continer row header menu minicart and login",
+        "children": [
+          "minicart.v2#global__header-main--miniCart",
+          "login#global__header-main--login"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "blockClass": "global__header-main--wrapperRow-minCart-login"
+        }
+      }
+}

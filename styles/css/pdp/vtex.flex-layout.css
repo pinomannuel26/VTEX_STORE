@@ -1,10 +1,10 @@
-.flexRow--container__pdp__style{
+.flexRow--global__pdp--product-main{
     max-width: 1136px;
     margin: auto ;
    /* border: 2px solid red */;
 }
 
-.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-productImage){
+.flexColChild--global__wrapper--product-image :global(.vtex-store-components-3-x-productImage){
 
     border-radius: 4px;
     border: 1px solid #e7e7e7;
@@ -12,7 +12,7 @@
     align-items: center;
 }
 
-.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-carouselGaleryThumbs)
+.flexColChild--global__wrapper--product-image :global(.vtex-store-components-3-x-carouselGaleryThumbs)
 {
     width: 92px !important;
     display: flex;
@@ -20,7 +20,7 @@
     
 }
 
-.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-figure){
+.flexColChild--global__wrapper--product-image :global(.vtex-store-components-3-x-figure){
     border-radius: 4px;
     border: 1px solid #e7e7e7;
     display: flex;
@@ -28,13 +28,13 @@
     align-items: center;
 }
 
-.flexColChild--pdp__imagen :global(.vtex-store-components-3-x-caretIcon){
+.flexColChild--global__wrapper--product-image :global(.vtex-store-components-3-x-caretIcon){
     display: none;
 }
 
 /*PDP information*/
 
-.flexColChild--pdp__information :global(.vtex-store-components-3-x-productNameContainer){
+.flexColChild--global__wrapper--product-information :global(.vtex-store-components-3-x-productNameContainer){
     font-family: "Lexend", sans-serif;
     font-size: 16px;
     font-weight: 300;
@@ -43,7 +43,7 @@
     color: #1D2734;
 
 }
-.flexCol--pdp__information :global(.vtex-product-price-1-x-currencyContainer){
+.flexCol--global__wrapper--product-information :global(.vtex-product-price-1-x-currencyContainer){
     font-family: "Lexend", sans-serif;
     font-size: 24px;
     font-weight: 600;
@@ -52,40 +52,40 @@
     color: #1D2734;
 }
 
-.flexRowContent--quantity__miniCart--style{
+.flexRowContent--global__pdp--wrapper-quantity-miniCart{
     /*border: 2px solid yellow;*/
     display: flex;
     align-items: center;
     justify-content: space-around;
 }
-.flexColChild--pdp__information :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexColChild--global__wrapper--product-information :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     width: 145px;
     /*border:2px solid green*/
 }
-.flexRowContent--quantity__miniCart--style :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
+.flexRowContent--global__pdp--wrapper-quantity-miniCart :global(.vtex-product-quantity-1-x-quantitySelectorContainer){
     padding: 0;
     margin: 0;
 }
-.flexRowContent--quantity__miniCart--style :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--global__pdp--wrapper-quantity-miniCart :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     padding: 0;
 }
 
-.flexColChild--pdp__information :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
+.flexColChild--global__wrapper--product-information :global(.vtex-product-quantity-1-x-quantitySelectorTitle){
     display: none;
 }
-.flexColChild--pdp__information :global(.vtex-numeric-stepper-container){
+.flexColChild--global__wrapper--product-information :global(.vtex-numeric-stepper-container){
     border-radius: 0px;
 }
-.flexRowContent--quantity__miniCart--style :global(.vtex-button){
+.flexRowContent--global__pdp--wrapper-quantity-miniCart :global(.vtex-button){
     width: 312px !important;
     height: 48px !important;
 }
 
 /*BOTONES QUANTITY*/
-.flexRowContent--quantity__miniCart--style :global(.vtex-numeric-stepper__minus-button__text){
+.flexRowContent--global__pdp--wrapper-quantity-miniCart :global(.vtex-numeric-stepper__minus-button__text){
     display: none !important;
 }
-.flexRowContent--quantity__miniCart--style :global(.vtex-numeric-stepper__minus-button)::after{
+.flexRowContent--global__pdp--wrapper-quantity-miniCart :global(.vtex-numeric-stepper__minus-button)::after{
     content: "";
     display: inline-block;
     width: 40px;
@@ -93,10 +93,10 @@
     background-image: url("/arquivos/Frame 7277.svg");
 
 }
-.flexRowContent--quantity__miniCart--style :global(.vtex-numeric-stepper__plus-button__text){
+.flexRowContent--global__pdp--wrapper-quantity-miniCart :global(.vtex-numeric-stepper__plus-button__text){
     display: none !important;
 }
-.flexRowContent--quantity__miniCart--style :global(.vtex-numeric-stepper__plus-button)::after{
+.flexRowContent--global__pdp--wrapper-quantity-miniCart :global(.vtex-numeric-stepper__plus-button)::after{
     content: "";
     display: inline-block;
     width: 40px;
@@ -105,10 +105,10 @@
 
 }
 
-.flexColChild--pdp__information :global(.vtex-store-components-3-x-shareLabel){
+.flexColChild--global__wrapper--product-information :global(.vtex-store-components-3-x-shareLabel){
     font-size: 0;
 }
-.flexColChild--pdp__information :global(.vtex-store-components-3-x-shareLabel)::after{
+.flexColChild--global__wrapper--product-information :global(.vtex-store-components-3-x-shareLabel)::after{
     content: "Share";
     font-family: "Lexend", sans-serif;
     font-size: 16px;
@@ -118,15 +118,15 @@
     color: #1D2734;
 }
 /*ESPECIFICACIONES DEL PRODUCTO*/
-.flexRow--especifition__style__pdp{
+.flexRow--global__pdp--table-especification{
     max-width: 1136px;
     margin: auto;
 
 }
-.flexRowContent--especifition__style__pdp :global(.vtex-store-components-3-x-specificationsTitle){
+.flexRowContent--global__pdp--table-especification :global(.vtex-store-components-3-x-specificationsTitle){
     font-size: 0;
 }
-.flexRowContent--especifition__style__pdp :global(.vtex-store-components-3-x-specificationsTitle)::after{
+.flexRowContent--global__pdp--table-especification :global(.vtex-store-components-3-x-specificationsTitle)::after{
     content: "Especificaciones del producto";
     font-family: "Lexend", sans-serif;
     font-size: 16px;
@@ -137,14 +137,14 @@
     
 }
 /*estilos solo a las filas impares*/
-.flexRowContent--especifition__style__pdp :global(.vtex-store-components-3-x-specificationsTableRow):nth-child(odd){
+.flexRowContent--global__pdp--table-especification :global(.vtex-store-components-3-x-specificationsTableRow):nth-child(odd){
     background: #e7e7e7 !important;
 }
 
-.flexRowContent--especifition__style__pdp :global(.vtex-store-components-3-x-specificationsTableHead){
+.flexRowContent--global__pdp--table-especification :global(.vtex-store-components-3-x-specificationsTableHead){
     display: none;
 }
-.flexRowContent--especifition__style__pdp :global(.vtex-store-components-3-x-specificationItemProperty){
+.flexRowContent--global__pdp--table-especification :global(.vtex-store-components-3-x-specificationItemProperty){
     font-family: "Lexend", sans-serif;
     font-size: 14px;
     font-weight: 600;
@@ -153,11 +153,14 @@
     color: #1D2734;
 }
 
-.flexRowContent--especifition__style__pdp :global(.vtex-store-components-3-x-specificationItemSpecifications){
+.flexRowContent--global__pdp--table-especification :global(.vtex-store-components-3-x-specificationItemSpecifications){
     font-family: "Lexend", sans-serif;
     font-size: 14px;
     font-weight: 300;
     line-height: 16.8px;
     letter-spacing: 0px;
     color: #1D2734;
+}
+.flexColChild--global__wrapper--product-information :global(.vtex-product-price-1-x-listPriceValue ) :local(span){
+    color: red;
 }

@@ -1,50 +1,51 @@
 /*Styles card slider*/
-.flexCol--sliderCard__cardStyles{
+.flexCol--global__home-sliderLayout--wrapperCol-card{
     width: 324px;
     height: 336.46px;
     border-radius: 12px;
     align-items: center;
 }
 
-.flexCol--sliderContainer__information{
+.flexCol--global__home-sliderLayout--informationCard-text{
     width:247.97px;
     height:79.19px;
 }
 
-.flexRow--card__information--title{
+.flexRow--global__home-sliderLayout--informationCard-wrapperTitle{
     width: 247.97px;
     height: 25px;
     display: flex;
     align-items: center;
 }
-.flexRow--card__information--description{
+.flexRow--global__home-sliderLayout--informationCard-description{
     width: 247.97px;
     height: 30px;
     display: flex;
     align-items: center;
 }
-.flexRow--card__styleImagen{
+.flexRow--global__home-sliderLayout--informationCard-rowImg{
     width:76.03px;
     height:79.19px;
 }
 
-.flexCol--sliderContainer__imagen{
+.flexCol--global__home-sliderLayout--informationCard-wrapperImg{
     flex: none;
     width:76.03px;
     height:79.19px;
 }
 /*stilos boton*/
-.flexRow--cardThree__buttom{
+.flexRow--global__home-sliderLayout--wrapperRow-butonCard{
     width: 134px;
     height: 43px;
     border-radius: 40px;
     display: flex;
     align-items: center;
     background-color: #1D2734;
-    gap: 8px;
+    /*gap: 8px;*/
+   
 
 }
-.flexRow--cardThree__buttom .stretchChildrenWidth{
+.flexRow--global__home-sliderLayout--wrapperRow-butonCard .stretchChildrenWidth{
     margin: 0;
 }
 

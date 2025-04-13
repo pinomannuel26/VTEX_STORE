@@ -1,7 +1,7 @@
 :global(.vtex-sticky-layout-0-x-container--sticky-header){
     background: white;
 }
-.flexRow--homeMenuStyle__container{
+.flexRow--desktop__header--wrapper-menu{
     max-width: 1136px;
     margin: auto;
     height: 56px;
@@ -9,68 +9,68 @@
     align-items: center;
 
 }
-.flexRowContent--homeMenuStyle__container{
+.flexRowContent--desktop__header--wrapper-menu{
     gap: 58px;
 }
-.flexRowContent--homeMenuStyle__container .stretchChildrenWidth{
+.flexRowContent--desktop__header--wrapper-menu .stretchChildrenWidth{
     margin: 0;
 }
-.flexRowContent--homeMenu__items{
+.flexRowContent--global__header-menu--wraperRow-items{
     display: flex;
     align-items: center;
     gap: 13px;
 }
 
-.flexRowContent--homeMenu__rowStyle--logos--search{
+.flexRowContent--desktop__header-menu--wrapperRow-logos-search{
     display: flex;
     align-items: center;
     gap: 12px !important;
 }
 /*search*/
 
-.flexRowContent--homeMenuStyle__container :global(.vtex-input-prefix__group){
+.flexRowContent--desktop__header--wrapper-menu :global(.vtex-input-prefix__group){
     border-radius: 100px;
 }
-.flexRowContent--homeMenu__rowStyle--logos--search :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--desktop__header-menu--wrapperRow-logos-search :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     margin: 0px;
 }
-.flexRowContent--homeMenuStyle__container :global(.vtex-store-components-3-x-searchBarContainer){
+.flexRowContent--desktop__header--wrapper-menu :global(.vtex-store-components-3-x-searchBarContainer){
     width: 280px;
     height: 40px;
     padding: 0px;
 }
-.flexRowContent--homeMenuStyle__container :global(.vtex-styleguide-9-x-input){
+.flexRowContent--desktop__header--wrapper-menu :global(.vtex-styleguide-9-x-input){
     background-color: #F0EFF2 ;
     color: black;
 }
-.flexRowContent--homeMenuStyle__container :global(.vtex-input__suffix){
+.flexRowContent--desktop__header--wrapper-menu :global(.vtex-input__suffix){
     background-color: #F0EFF2;
     color: black;
 }
 
 /*STYLE MINICART LOGIN*/
-.flexRow--homeMenu__rowStyle--minicart--login{
+.flexRow--global__header-main--wrapperRow-minCart-login{
     display: flex;
     align-items: center;
 }
-.flexRowContent--homeMenu__rowStyle--minicart--login :global(.vtex-button){
+.flexRowContent--global__header-main--wrapperRow-minCart-login :global(.vtex-button){
     min-height: auto;
 }
-.flexRowContent--homeMenu__rowStyle--minicart--login :global(.vtex-minicart-2-x-openIconContainer){
+.flexRowContent--global__header-main--wrapperRow-minCart-login :global(.vtex-minicart-2-x-openIconContainer){
     padding: 0;
 }
-.flexRowContent--homeMenu__rowStyle--minicart--login :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--global__header-main--wrapperRow-minCart-login :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     margin: 0;
 }
 
-.flexRowContent--homeMenu__items :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
+.flexRowContent--global__header-menu--wraperRow-items :global(.vtex-flex-layout-0-x-stretchChildrenWidth){
     margin: 0;
 }
-.flexRowContent--homeMenuStyle__container :global(.vtex-flex-layout-0-x-flexColChild){
+.flexRowContent--desktop__header--wrapper-menu :global(.vtex-flex-layout-0-x-flexColChild){
     display: flex;
     align-items: center;
 }
-.flexCol--homeMenu__style--minCart--login{
+.flexCol--desktop__header-menu--wrapperCol-items-cart-login{
     display: flex;
     flex-direction: row;
     gap: 40px;
@@ -81,7 +81,7 @@
     :global(.vtex-sticky-layout-0-x-container){
         background: rgb(255, 255, 255);
     }
-    .flexRow--homeMenuStyle__container{
+    .flexRow--desktop__header--wrapper-menu{
         max-width: 100vw !important;
         width: 100vw !important;
         margin: 0 !important;
@@ -89,16 +89,16 @@
         border: 1px solid red;
         padding: 0 16px;
     }
-    .flexRowContent--homeMenuStyle__container{
+    .flexRowContent--desktop__header--wrapper-menu{
         gap: 120px;
     }
-    .flexRowContent--homeMenu__rowStyle--logos--search{
+    .flexRowContent--desktop__header-menu--wrapperRow-logos-search{
         gap: 8px !important;
     }
     
     /*STYLE MINICART LOGIN*/
  
-    .flexCol--homeMenu__style--minCart--login{
+    .flexCol--desktop__header-menu--wrapperCol-items-cart-login{
 
         gap: 8px !important;
     }

@@ -65,6 +65,7 @@
     "search-result-layout": {
         "title":"Gobal search layaout",
         "blocks": [
+            //"flex-layout.row#global__home--heroBanner",
             "search-result-layout.desktop",
             "search-result-layout.mobile",
             "search-not-found-layout"

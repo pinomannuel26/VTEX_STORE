@@ -1,16 +1,17 @@
 {
   "store.home": { 
     "blocks": [
+      "flex-layout.row#global__home--heroBanner",
       "responsive-layout.desktop#homeDesktop",
       "responsive-layout.mobile#homeMobile",
       "flex-layout.row#cardSlider__title",
-      "slider-layout#home__sliderCards",
+      "slider-layout#global__home--sliderLayout-Cards",
       "flex-layout.row#cardSlider__icon--image",
       "flex-layout.row#cardSlider__title",
       "flex-layout.row#home__sliderProducts",
       "flex-layout.row#cardSlider__icon--image",
       "flex-layout.row#cardSlider__title",
-      "slider-layout#home__sliderCards",
+      "slider-layout#global__home--sliderLayout-Cards",
       "flex-layout.row#cardSlider__icon--image",
       "flex-layout.row#cardSlider__title",
       "flex-layout.row#home__sliderProducts",

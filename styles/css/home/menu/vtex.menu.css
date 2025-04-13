@@ -1,9 +1,9 @@
-.menuContainerNav--homeMenuStyle__container{
+.menuContainerNav--desktop__header--wrapper-menu{
     display: flex;
     align-items: center;
 }
 
-.styledLinkContent--menuDesktop__item{
+.styledLinkContent--global__header-main--all-item{
     font-family: "Lexend", sans-serif;
     font-size: 12px;
     font-weight: 400;
@@ -12,10 +12,10 @@
     color: #1D2734;
 }
 
-.menuItem--menuDesktop__item:hover{
+.menuItem--global__header-main--all-item:hover{
     border-bottom: 2px solid black;
 }
 
-.styledLinkContainer--menuDesktop__item{
+.styledLinkContainer--global__header-main--all-item{
     margin: 0;
 }

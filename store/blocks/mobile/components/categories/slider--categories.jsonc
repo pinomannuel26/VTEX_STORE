@@ -1,5 +1,5 @@
 {
-    "slider-layout#sliderMobile__categories": {
+   /* "slider-layout#sliderMobile__categories": {
         "title":"Slider categories mobile",
         "props": {
           "itemsPerPage": {
@@ -31,4 +31,4 @@
             "flex-layout.col#homeDesktop__heroBanner--category12"
         ]
       }
-}
+*/}

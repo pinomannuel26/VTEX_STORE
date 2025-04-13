@@ -1,11 +1,10 @@
 {
   "store.product": {
     "children": [
-      "flex-layout.row#homeDesktop__heroBanner",
-      "flex-layout.row#plp__product-breadcrumb",
-      "flex-layout.row#product-main",
+      "flex-layout.row#global__home--heroBanner",
+      "flex-layout.row#global__pdp--product-main",
       "shelf.relatedProducts",
-      "flex-layout.row#pdp__table--especification"
+      "flex-layout.row#global__pdp--table-especification"
     ]
   }
 }

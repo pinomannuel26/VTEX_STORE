@@ -1,0 +1,162 @@
+{
+    "slider-layout#global__home--sliderLayout-Cards": {
+        "title":"Slider global home cards",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 3,
+            "tablet": 2,
+            "phone": 1
+          },
+          "infinite": true,
+          "customPaging": true,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass":[
+            "global__home--sliderLayout-Cards"
+          ]
+        },
+        "children": [
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-card",
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-card",
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-card",
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-card",
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-card",
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-card"
+        ]
+      },
+      "flex-layout.row#global__home-sliderLayout--wrapperRow-card": {
+        "title": "wrapper row card slider layout card",
+        "children": [
+          "flex-layout.col#global__home-sliderLayout--wrapperCol-card"
+        ]
+      },
+      "flex-layout.col#global__home-sliderLayout--wrapperCol-card": {
+        "title":"Col slider layout card of home",
+        "props": {
+          "blockClass":[
+            "global__home-sliderLayout--wrapperCol-card"
+          ]
+        },
+        "children": [
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-imgCard",
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-informationCard",
+          "flex-layout.row#global__home-sliderLayout--wrapperRow-butonCard"
+        ]
+      },
+      "flex-layout.row#global__home-sliderLayout--wrapperRow-imgCard":{
+          "title": "row img slider layout card ",
+          "children": [
+              "image#global__home-sliderLayout--imgCard"
+          ]
+      },
+      "image#global__home-sliderLayout--imgCard": {
+          "title":"img slider layout card",
+          "props": {
+            "src": "/arquivos/cardSlider.png"
+          }
+      },
+      "flex-layout.row#global__home-sliderLayout--wrapperRow-informationCard":{
+        "title": "Row information slider layout card",
+        "children": [
+          "flex-layout.col#global__home-sliderLayout--informationCard-text",
+          "flex-layout.col#global__home-sliderLayout--informationCard-wrapperImg"
+        ], 
+        "props": {
+          "preserveLayoutOnMobile": true, //para que el diseño mobile siga igual al diseño desktop
+          "colSizing": "auto" //para que se quite la distribucion de 50% de las columnas
+        }
+      },
+      "flex-layout.col#global__home-sliderLayout--informationCard-text":{
+        "title": "Col conntainer text slider layout card",
+        "children": [
+          "flex-layout.row#global__home-sliderLayout--informationCard-wrapperTitle",
+          "flex-layout.row#global__home-sliderLayout--informationCard-description"
+        ], 
+        "props": {
+          "blockClass":"global__home-sliderLayout--informationCard-text"
+
+        }         
+      },
+      "flex-layout.row#global__home-sliderLayout--informationCard-wrapperTitle":{
+        "title": "Row container title slider layout card",
+        "children": [
+          "rich-text#global__home-sliderLayout--informationCard-title"
+        ],
+        "props": {
+          "blockClass": [
+            "global__home-sliderLayout--informationCard-wrapperTitle"
+          ]
+        }
+      },
+      "rich-text#global__home-sliderLayout--informationCard-title":{
+        //"title": "title of slider layout card",
+        "props": { 
+          "text": "Heading ",
+          "blockClass": "global__home-sliderLayout--informationCard-wrapperTitle"
+        }  
+    },
+      "flex-layout.row#global__home-sliderLayout--informationCard-description":{
+        "title": "row container description of slider information card",
+        "children": [
+          "rich-text#global__home-sliderLayout--informationCard-wrapperDescription"
+        ],
+        "props": {
+          "blockClass": "global__home-sliderLayout--informationCard-description"    
+        }
+      },
+    "rich-text#global__home-sliderLayout--informationCard-wrapperDescription":{
+      //"title": "slider one slider information description",
+      "props": { 
+        "text": "Builder platform is made by, buildership platform is made by... ",
+        "blockClass": "global__home-sliderLayout--informationCard-description"
+      }
+    },
+    "flex-layout.col#global__home-sliderLayout--informationCard-wrapperImg":{
+      "title": "container img of slider layout card information",
+      "children": [
+        "flex-layout.row#global__home-sliderLayout--informationCard-rowImg"
+      ],
+      "props": {
+        "blockClass":"global__home-sliderLayout--informationCard-wrapperImg"
+      }
+    },
+    "flex-layout.row#global__home-sliderLayout--informationCard-rowImg":{
+      "title": "Row container img medalla of card slider layout ",
+      "children": [
+        "image#global__home-sliderLayout--informationCard-img"
+      ], 
+      "props": {
+        "blockClass": "global__home-sliderLayout--informationCard-rowImg"
+      }
+    },
+    "image#global__home-sliderLayout--informationCard-img": {
+      "title":"img medalla of card slider layout",
+      "props": {
+        "src": "/arquivos/medalla.png"  
+      }
+  },
+  "flex-layout.row#global__home-sliderLayout--wrapperRow-butonCard":{
+    "title": "Container buton of slider layout card",
+    "children": [
+      "rich-text#global__home-sliderLayout--buton-text",
+      "image#global__home-sliderLayout--buton-img"
+    ],
+    "props": {
+      "blockClass": "global__home-sliderLayout--wrapperRow-butonCard"
+    }
+  },
+  "rich-text#global__home-sliderLayout--buton-text":{
+    //"title": "text of buton - slider layput card",
+    "props": { 
+        "text": "Ver precio",
+        "textAlignment": "CENTER",
+        "textPosition": "CENTER",
+        "blockClass": "global__home-sliderLayout--buton-text"
+      }
+  },
+  "image#global__home-sliderLayout--buton-img": {
+      "title":"img arrow of card slider layout",
+      "props": {
+        "src": "/arquivos/Vector.svg"  
+      }
+    }
+}
