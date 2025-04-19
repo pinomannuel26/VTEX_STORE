@@ -1,33 +1,27 @@
 {
-    "flex-layout.row#home__sliderProducts":{
-        "title": "home__sliderProducts main",
+    "flex-layout.row#global__home--wrapper-titleMain":{
+        "title": "title slider layout home",
         "children": [
-            "list-context.product-list#demo1"
-        ]
-    },
-    "flex-layout.row#cardSlider__title":{
-        "title": "slider card text main",
-        "children": [
-            "rich-text#cardSlider__title--text"
+            "rich-text#global__home--titleMainText"
         ],
         "props": {
-            "blockClass": "home__titleStyle--sliders"
+            "blockClass": "global__home--wrapper-titleMain"
         }
     },
-    "rich-text#cardSlider__title--text":{
+    "rich-text#global__home--titleMainText":{
         "props": { 
           "text": "An amazing product. ",
-          "blockClass": "cardSlider__title--textMain"
+          "blockClass": "global__home--titleMainText"
         }  
     },
-    "flex-layout.row#cardSlider__icon--image":{
-        "title": "icon card slider",
+    "flex-layout.row#global__home--iconSlider":{
+        "title": "icon sliders layout home",
         "children": [
-            "image#cardSlider__icon--image"
+            "image#global__home--iconSlider-img"
         ]
     },
-    "image#cardSlider__icon--image": {
-        "title":"card icon slider img",
+    "image#global__home--iconSlider-img": {
+        "title":"img of icon slider layout home",
         "props": {
           "src": "/arquivos/Slider indicator.svg"
         }

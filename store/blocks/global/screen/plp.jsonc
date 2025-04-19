@@ -32,10 +32,7 @@
             "context": {
                 "skusFilter": "FIRST_AVAILABLE",
                 "simulationBehavior": "default"
-            },
-            "blockClass":[
-                "sssssssssssssssss"
-            ]
+            }
         }
     },
     "store.search#subcategory": {

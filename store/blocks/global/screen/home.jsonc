@@ -4,18 +4,19 @@
       "flex-layout.row#global__home--heroBanner",
       "responsive-layout.desktop#homeDesktop",
       "responsive-layout.mobile#homeMobile",
-      "flex-layout.row#cardSlider__title",
+      //"list-context.image-list#desktop__home--sliderLayout-image",
+      "flex-layout.row#global__home--wrapper-titleMain",
       "slider-layout#global__home--sliderLayout-Cards",
-      "flex-layout.row#cardSlider__icon--image",
-      "flex-layout.row#cardSlider__title",
-      "flex-layout.row#home__sliderProducts",
-      "flex-layout.row#cardSlider__icon--image",
-      "flex-layout.row#cardSlider__title",
+      "flex-layout.row#global__home--iconSlider",
+      "flex-layout.row#global__home--wrapper-titleMain",
+      "list-context.product-list#global__sliderLayout--products",
+      "flex-layout.row#global__home--iconSlider",
+      "flex-layout.row#global__home--wrapper-titleMain",
       "slider-layout#global__home--sliderLayout-Cards",
-      "flex-layout.row#cardSlider__icon--image",
-      "flex-layout.row#cardSlider__title",
-      "flex-layout.row#home__sliderProducts",
-      "flex-layout.row#cardSlider__icon--image"
+      "flex-layout.row#global__home--iconSlider",
+      "flex-layout.row#global__home--wrapper-titleMain",
+      "list-context.product-list#global__sliderLayout--products",
+      "flex-layout.row#global__home--iconSlider"
 
       
     ]

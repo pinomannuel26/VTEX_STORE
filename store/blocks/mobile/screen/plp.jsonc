@@ -1,7 +1,11 @@
 {
     "search-result-layout.mobile": {
         "children": [
-
+            "flex-layout.row#global__home--heroBanner",
+            "flex-layout.row#global__plp--breadcrumb",
+            "flex-layout.row#mobile__plp--title",
+            "flex-layout.row#mobile__plp--wrapperRow-filters",
+            "flex-layout.row#mobile__plp--wrapperRow-listProducts"
              
         ],
         "props": {

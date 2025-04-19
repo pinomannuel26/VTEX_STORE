@@ -2,7 +2,7 @@
     "responsive-layout.desktop#homeDesktop":{
         "title": "Home section desktop",
         "children": [
-           "list-context.image-list#desktop__home--sliderLayout-image"    
+          "list-context.image-list#desktop__home--sliderLayout-image"    
         ]
     }
 

@@ -1,5 +1,5 @@
 {
-   "list-context.image-list#mobileHome__sliderLayout--image": {
+   "list-context.image-list#mobile__home-sliderLayout--imgMain": {
         "title": "Slider layout images",
         "children": [
             "slider-layout#homeMobile__sliderLayout--images"

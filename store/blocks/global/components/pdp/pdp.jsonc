@@ -41,6 +41,7 @@
           ]
         },
         "children": [
+          "vtex.product-highlights@2.x:product-highlights#global__pdp--highlight",
           "vtex.store-components:product-name#global__product-name", //se hace cuando sale que dos dependencias llaman a componentes con loos mimos nombre 
           "product-list-price",
           "product-selling-price",
@@ -77,6 +78,27 @@
         "props": {
           "blockClass": "global__pdp--table-especification"
         }
-    }
+    },
+    "vtex.product-highlights@2.x:product-highlights#global__pdp--highlight": {
+        "props": {
+          "type": "collection",
+          "filter": {
+            "type": "show",
+            "highlightNames": ["test_data"]
+          }
+        },
+        "children": ["product-highlight-wrapper#global__pdp--wrapper-highlight"]
+      },
+      "product-highlight-wrapper#global__pdp--wrapper-highlight":{
+        "children":[
+          "product-highlight-text#global__pdp--highlight-text"
+        ]
+      },
+      "product-highlight-text#global__pdp--highlight-text": {
+        "props": {
+          "message": "Flash Deal",
+          "blockClass": "global__pdp--highlight-text"
+        }
+      }
    
 }

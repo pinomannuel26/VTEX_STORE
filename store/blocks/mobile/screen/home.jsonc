@@ -2,8 +2,7 @@
     "responsive-layout.mobile#homeMobile":{
         "title": "Home section mobile",
         "children": [
-            "flex-layout.row#homeMobile__sliderCategories",
-            "flex-layout.row#homeMobile__sliderLayout"
+           "flex-layout.row#mobile__home--sliderLayout-main"
         ]
     }
 }

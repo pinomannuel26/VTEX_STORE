@@ -51,7 +51,8 @@
                     "component": "OneOrTwoLineSummary",
                     "itemsPerRow": {
                         "desktop": 3,
-                        "mobile": 1
+                        "tablet": 2,
+                        "phone": 1
                     }
                 },
                 {
@@ -68,7 +69,8 @@
                     "component": "ManyByLineSummary",
                     "itemsPerRow": {
                         "desktop": 3,
-                        "mobile": 1
+                        "tablet": 2,
+                        "phone": 1
                     }
                 }
             ],
@@ -101,7 +103,10 @@
           "children": [
               "flex-layout.col#global__plp--wrapper-summryShelf-image",
               "flex-layout.col#global__plp--wrapper-summryShelf-infoProduct"
-          ]
+          ],
+          "props": {
+            "preserveLayoutOnMobile": true
+          }
         },
         "flex-layout.col#global__plp--wrapper-summryShelf-image":{
           "title": "col container image product summary shelf",
@@ -118,7 +123,8 @@
               "product-summary-name",
               "product-list-price",
               "product-selling-price",
-              "flex-layout.row#global__plp--summaryShelf-envio-img"
+              "vtex.product-highlights@2.x:product-highlights"
+              //"flex-layout.row#global__plp--summaryShelf-envio-img"
           ],
           "props": {
               "blockClass": "global__plp--wrapper-summryShelf-infoProduct",

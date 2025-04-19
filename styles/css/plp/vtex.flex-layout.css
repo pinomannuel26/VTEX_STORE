@@ -101,115 +101,30 @@
     margin-top: 40px;
 }
 
-.flexColChild--pdp__information :global(.vtex-product-price-1-x-listPriceValue ) :local(span){
-    color: red;
+.flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-price-1-x-listPriceValue ) :local(span){
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    letter-spacing: 0px;
+    color: #A5A9AE;
+}
+.flexColChild--global__plp--wrapper-summryShelf-infoProduct{
+    color: #A5A9AE;
 }
 /*Style mobile*/
 @media (max-width: 1024px) {
     
-    .flexColChild--desktop__plp--wrapper-navigator :global(.vtex-checkbox__line-container){
-        display: flex !important;
-        flex-direction: row !important;
-        
-
-    }
-    .flexColChild--desktop__plp--wrapper-navigator :global(.vtex-checkbox__label){
-        width: auto;
-       
-    }
-    /*product summary shlef*/
-
-    .flexCol--global__plp--wrapper-summryShelf-image  {
-        display: flex !important;
-        align-items: center !important;
-        border: 3px solid red;
-    }
-    .flexColChild--global__plp--wrapper-summryShelf-image :global(.vtex-product-summary-2-x-image){
-        max-width: 135px;
-        height: auto;
-        border: 4px solid green;
-    }
-
-    .flexCol--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-nameContainer){
-        padding-top: 0px;
-        padding-bottom: 0px;
-        display: flex;
-        justify-content: left;
-        border: 2px solid blue;
-    }
-    .flexCol--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-priceContainer)
-    {
-        padding-top: 0px;
-        padding-bottom: 0px;
-        min-height: 0px; 
-        align-items: flex-start;
-    }
-
-    .flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-brandName){
-        font-family: "Lexend", sans-serif;
-        font-size: 12px;
-        font-weight: 400;
-        line-height: 12.76px;
-        letter-spacing: 0%;
-        color: #1D2734;
-        
-    }
-    .flexColChild--global__plp--wrapper-summryShelf-infoProduct  {
-        text-align: left;
-    }
-
-    .flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-price-1-x-currencyContainer){
-        font-family: "Lexend", sans-serif;
-        font-size: 20px;
-        font-weight: 600;
-        line-height: 21.87px;
-        letter-spacing: 0%;
-        color: #1D2734;
-
-    }
-    .flexColChild--global__plp--wrapper-summryShelf-infoProduct :global(.vtex-product-summary-2-x-price_installmentContainer){
-        display: none;
-    }
-    .flexRowContent--global__plp--summaryShelf-envio-img{
-        display: flex;
-        justify-content: left;
-        gap: 7px;
-    }
-    .imageElement--global__plp--summaryShlef-envioImg{
-        width: 6.83px;
-        height: 11.39px;
-    }
-    .flexColChild--desktop__plp--wrapper-products :global(.vtex-search-result-3-x-galleryItem--whole){
-        padding: 0px;
-        /*height: 106.3px;*/
-    }
-    .flexRowContent--global__plp--breadcrumb{
-        max-width: 1136px;
-        margin: auto;
-        padding: 0;
-    }
-    .flexRowContent--global__plp—breadcrumb :global(.vtex-breadcrumb-1-x-container){
-        padding: 0;
-    }
-    .flexRowContent--desktop__plp--titleWrapper{
-    max-width: 1136px;
-    margin: auto;
-    margin-top: 16px;
-    }
-    .flexRowContent--desktop__plp--wrapper-navigator-products{
-
-        max-width: 1136px;
-        margin: auto;
-        gap: 74px;
-    }
-    /*Style navigator*/
-    .flexColChild--desktop__plp--wrapper-navigator{
-        width: 184px;
-        height: 516px;
-        
-    }
-    .flexRow--desktop__plp--wrapper-navigator-products{
-        margin-top: 40px;
-    }
-
+   .flexRowContent--mobile__plp--wrapperRow-filters{
+    display: flex;
+    justify-content: left;
+    padding-left: 16px;
+    gap: 4px;
+    align-items: center;
+   }
+   .flexRowContent--mobile__plp--wrapperRow-filters :global(.vtex-search-result-3-x-filtersWrapperMobile){
+    height: 40px;
+    border-radius: 40px;
+    background-color: #E7E7E7;
+   }
 }

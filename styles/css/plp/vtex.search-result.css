@@ -1,6 +1,6 @@
 
 .filterTitle {
-    width: 184px;
+    /*width: 184px;*/
     height: 36px;
     border-radius: 40px;
     display: flex;
@@ -32,6 +32,7 @@
 }
 /*estulo order by*/
 .filterPopupTitle{
+  
     font-family: "Lexend", sans-serif;
     font-weight: 400;
     /*font-size: 14px;*/
@@ -39,30 +40,34 @@
     letter-spacing: 0%;
     color: #1D2734;
 
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+
 }
 .orderByButton {
-    width: 170px;
+
     height: 40px;
     background-color:  #e8e9eb;
 }
-
-
-/*Style mobile*/
-@media (max-width: 1024px) {
-
-
-/*texto interno de categorias, subcategorias, etc*/
-
-/*estulo order by*/
-.filterPopupTitle{
-    /*font-size: 12px;*/
-}
-.orderByButton {
-    width: 147px;
-    height: 40px;
-    background-color:  #e8e9eb;
+:global(.vtex-search-result-3-x-orderByButton){
+    /*max-width: 0;
+    width: 0;*/
 }
 
+.filterPopupTitle::after{
 
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url("/arquivos/iconOrderBy.svg");
+    display: flex;
+    flex-direction: row-reverse;
+    
+}
 
+.orderByButton{
+    max-width: none !important;
+    width: auto !important;
 }

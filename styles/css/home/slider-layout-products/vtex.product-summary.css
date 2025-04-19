@@ -1,0 +1,57 @@
+.containerNormal--global__home-sliderLayoutProducts--productSumaryShelf{
+    height: 378px;
+}
+
+.element--global__home-sliderLayoutProducts--productSumaryShelf :global(.vtex-product-summary-2-x-imageStackContainer){
+    max-height: 140px;
+}
+.element--global__home-sliderLayoutProducts--productSumaryShelf :global(.vtex-product-summary-2-x-image){
+    max-height: 140px;
+}
+:global(.vtex-product-summary-2-x-price_installmentContainer){
+    display: none;
+}
+
+:global(.vtex-product-summary-2-x-priceContainer){
+    padding: 0;
+}
+
+.element--global__home-sliderLayoutProducts--productSumaryShelf :global(.vtex-product-summary-2-x-price_listPriceLabel){
+    display: none;
+}
+
+.element--global__home-sliderLayoutProducts--productSumaryShelf :global(.vtex-product-summary-2-x-price_sellingPriceLabel){
+    display: none;
+}
+.element--global__home-sliderLayoutProducts--productSumaryShelf :global(.vtex-button){
+    background-color: white;
+    border-color: #1D2734;
+    color: #1D2734;
+    
+}
+:global(.vtex-product-summary-2-x-buyButtonText){
+    font-size: 0;
+}
+:global(.vtex-product-summary-2-x-buyButtonText)::after{
+    content: "Comprar";
+    text-transform: capitalize;
+    font-family: "Lexend", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0;
+    color: #1D2734;
+}
+.element--global__home-sliderLayoutProducts--productSumaryShelf :global(.vtex-product-summary-2-x-productBrand){
+   /*PARA QUE SOLO OCUPE DOS LINEAS*/
+   height: 38px;
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.element--global__home-sliderLayoutProducts--productSumaryShelf :global(.vtex-product-summary-2-x-nameContainer){
+    padding: 0;
+}

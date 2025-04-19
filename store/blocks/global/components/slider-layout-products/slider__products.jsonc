@@ -1,0 +1,77 @@
+{
+    "product-summary.shelf#global__home-sliderLayoutProducts--productSumaryShelf": {
+      "title": "Product summary shelf of products",
+      "children": [
+          "flex-layout.row#global__home-sliderLayout--wrapperWishlist",
+          "product-summary-image",
+          "product-summary-name",
+          "product-summary-space",
+          "product-summary-price",      
+          "vtex.product-highlights@2.x:product-highlights#global__home-highlight",
+          "product-summary-buy-button"
+        ],
+        "props": {
+          "blockClass":"global__home-sliderLayoutProducts--productSumaryShelf"
+        }
+      },
+      "list-context.product-list#global__sliderLayout--products": { 
+        "title": "List of product summary shelf ",
+        "blocks": [
+            "product-summary.shelf#global__home-sliderLayoutProducts--productSumaryShelf"    
+        ],
+        "children": [
+            "slider-layout#global__sliderLayout--productsView"
+        ]
+      },
+      "slider-layout#global__sliderLayout--productsView": {
+        "title":"View slider layout of product summary shelf", 
+        "props": {
+          "blockClass":"global__sliderLayout--productsView",
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 3,
+            "phone": 2
+          },
+          "infinite": true
+        }
+      },
+      "product-price-savings#global__seaving":{
+        "props":{
+          "message":"{savingsPercentage}",
+          "percentageStyle":"compact"
+        }
+      },
+      "vtex.product-highlights@2.x:product-highlights#global__home-highlight": {
+        "props": {
+          "type": "collection",
+          "filter": {
+            "type": "show",
+            "highlightNames": ["testcapacitacion"]
+          }
+        },
+        "children": ["product-highlight-wrapper#global__home--wrapper-highlight"]
+      },
+      "product-highlight-wrapper#global__home--wrapper-highlight":{
+        "children":[
+          "product-highlight-text#global__home--highlight-text"
+        ]
+      },
+      "product-highlight-text#global__home--highlight-text": {
+        "props": {
+          "message": "Envio gratis",
+          "blockClass": "global__home--highlight-text"
+        }
+      },
+      "flex-layout.row#global__home-sliderLayout--wrapperWishlist":{
+        "title": "container row porcentaje and wish list slider products",
+        "children": [
+          "product-price-savings#global__seaving",
+          "add-to-list-btn"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "preserveLayoutOnMobile": true,
+          "blockClass": "global__home-sliderLayout--wrapperWishlist"
+        }
+      }
+    }
