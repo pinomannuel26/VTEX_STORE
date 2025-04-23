@@ -9,7 +9,7 @@
     font-size: 16px;
     line-height: 19.2px;
     letter-spacing: 0;
-    color: #0ee547;
+
 }
 
 :global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child{

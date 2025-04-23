@@ -141,11 +141,5 @@
     .flexCol--mobile__header-menu--wrapperCol-cartItemsLogin{
         gap: 0;
     }
-   /* .flexRowContent--mobile__header--menu{
-        border: 2px solid red;
-        gap: 120px;
-        display: flex;
-        justify-content: space-between;
-        
-    }*/
+   
 }

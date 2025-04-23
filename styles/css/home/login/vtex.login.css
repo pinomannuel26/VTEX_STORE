@@ -22,8 +22,69 @@
     align-items: center;
     background-color: #1D2734;
 }
+
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-customOAuthOptionBtn){
+    display: none;
+}
+
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-formTitle){
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0C2340;
+}
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-accessCodeOptionBtn ) :local(button){
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1D2734;
+    text-transform: none;
+    
+}
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-emailPasswordOptionBtn ) :local(button){
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1D2734;
+    text-transform: none;
+    
+}
+.portalWrapper--global__header-main--login :global(.vtex-button){
+    border-radius: 40px;
+    border: 1px solid #1D2734 ;
+    background-color: #f5f4f6;
+}
+
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(button){
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #ffffff;
+    text-transform: none;
+    background-color: #1877F2;
+}
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-googleOptionBtn) :local(button){
+    font-family: "Lexend", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #5E636E;
+    text-transform: none;
+    background-color: #FFFFFF;
+
+}
 @media (max-width: 1024px){
    .label{
     display: block;
    }
 }
+

@@ -51,10 +51,7 @@
     height: 40px;
     background-color:  #e8e9eb;
 }
-:global(.vtex-search-result-3-x-orderByButton){
-    /*max-width: 0;
-    width: 0;*/
-}
+
 
 .filterPopupTitle::after{
 
