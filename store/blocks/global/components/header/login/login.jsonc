@@ -4,8 +4,8 @@
           "optionsTitle": "LOG-IN",
           "emailAndPasswordTitle": "LOG-IN",
           "accessCodeTitle": "Código para la formacion",
-          "emailPlaceholder": "soy un placeholder en formacion POPUP",
-          "passwordPlaceholder": "passwordd",
+          "emailPlaceholder": "Enter your e-mail",
+          "passwordPlaceholder": "Enter your password",
           "showPasswordVerificationIntoTooltip": true,
           "blockClass":"global__header-main--login"
         }

@@ -43,9 +43,10 @@
     letter-spacing: 0%;
     color: #1D2734;
     text-transform: none;
-    
+    border: 1px solid #1D2734 ;
 }
 .portalWrapper--global__header-main--login :global(.vtex-login-2-x-emailPasswordOptionBtn ) :local(button){
+    
     font-family: "Lexend", sans-serif;
     font-size: 14px;
     font-weight: 400;
@@ -53,11 +54,20 @@
     letter-spacing: 0%;
     color: #1D2734;
     text-transform: none;
-    
+    border: 1px solid #1D2734 ;
+}
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-emailPasswordOptionBtn ) :local(button)::after{
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1D2734;
+    text-transform: none;
+    border: 1px solid #1D2734 ;
 }
 .portalWrapper--global__header-main--login :global(.vtex-button){
     border-radius: 40px;
-    border: 1px solid #1D2734 ;
     background-color: #f5f4f6;
 }
 
@@ -79,8 +89,48 @@
     letter-spacing: 0%;
     color: #5E636E;
     text-transform: none;
+    border: 1px solid #D7DCE7;
     background-color: #FFFFFF;
 
+}
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(svg){
+    display: none;
+}
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(button)::before{
+    content: "";
+    width: 24px;
+    height: 24px;
+    background-image: url(/arquivos/logo_facebook.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(button){
+
+    display: flex;
+    align-items: center;
+  
+}
+
+.portalWrapper--global__header-main--login :global(.vtex-input-prefix__group){
+    border-radius: 40px;
+    border: 1px solid #1D2734;
+
+    
+}
+.portalWrapper--global__header-main--login :global(.vtex-styleguide-9-x-noAppearance)::placeholder{
+    
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1D2734; 
+}
+
+.eyeSightIcon--global__header-main--login{
+    display: none;
 }
 @media (max-width: 1024px){
    .label{
