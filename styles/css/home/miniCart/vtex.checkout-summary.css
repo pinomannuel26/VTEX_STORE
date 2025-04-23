@@ -1,0 +1,30 @@
+/*Estilos footer mini cart*/
+
+.summarySmallDisclaimer--global__miniCart-wrapper-values{
+    display: none;
+}
+.summarySmallContent--global__miniCart-wrapper-values :global(.vtex-checkout-summary-0-x-summaryItemContainer){
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 0;
+    color: #0ee547;
+}
+
+:global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):last-child{
+    font-family: "Lexend", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19.2px;
+    letter-spacing: 0;
+    color: #E31616;
+}
+:global(.vtex-checkout-summary-0-x-summarySmallContent) :global(.vtex-checkout-summary-0-x-summaryItemContainer):not(:last-child){
+    font-family: "Lexend", sans-serif;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 16.8px;
+    letter-spacing: 0;
+    color: #777D85;
+}

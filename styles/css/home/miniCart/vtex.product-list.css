@@ -1,0 +1,37 @@
+.quantitySelectorIncrease--global__miniCart--quantity :local(svg){
+    display: none;
+}
+.quantitySelectorIncrease--global__miniCart--quantity {
+    content: "";
+    width: 37.81px;
+    height: 43.48px;
+    background-image: url(/arquivos/mas.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.quantitySelectorDecrease--global__miniCart--quantity :local(svg){
+    display: none;
+}
+
+.quantitySelectorDecrease--global__miniCart--quantity{
+    content: "";
+    width: 37.81px;
+    height: 43.48px;
+    background-image: url(/arquivos/menos.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+.quantitySelectorWrapper--global__miniCart--quantity{
+
+    width: 137.06px;
+}
+
+.quantitySelectorWrapper--global__miniCart--quantity :global(.vtex-product-list-0-x-inputContainer){
+    width: 59.55px;
+}

@@ -1,3 +1,4 @@
+/*Estilos globales del mini cart*/
 :global(.vtex-store-icons-0-x-cartIcon){
     display: none;
 }
@@ -10,4 +11,37 @@
     background-image: url("/arquivos/cart.svg");
     background-repeat: no-repeat;
 
+}
+/*ESTILOS CARDS - MIN CART*/
+.paragraph--global__miniCart-summaryPurchase-text{
+    color: red
+}
+
+/*style mini cart empty*/
+.minicartEmptyStateContainer--global__miniCart--empty{
+    justify-content: space-between;
+}
+
+.closeIconContainer::before{
+    content: "";
+    width: 50px;
+    height: 25px;
+    background-image: url(/arquivos/IconITG.svg);
+    display: inline-block;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+:global(.vtex-minicart-2-x-overlay--visible){
+    backdrop-filter: blur(20px);             
+    -webkit-backdrop-filter: blur(20px);     
+    background-color: rgba(219, 220, 223, 0.6);
+}
+
+/*Style mobile*/
+@media (max-width: 1024px) {
+    :global(.vtex-minicart-2-x-closeIconContainer){
+        max-width: none;
+    }
 }
