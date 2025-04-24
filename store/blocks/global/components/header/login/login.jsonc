@@ -3,7 +3,7 @@
         "props": {
           "optionsTitle": "LOG-IN",
           "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "Código para la formacion",
+          "accessCodeTitle": "RECUPERAR CLAVE",
           "emailPlaceholder": "Enter your e-mail",
           "passwordPlaceholder": "Enter your password",
           "showPasswordVerificationIntoTooltip": true,

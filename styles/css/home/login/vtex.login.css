@@ -116,8 +116,7 @@
 .portalWrapper--global__header-main--login :global(.vtex-input-prefix__group){
     border-radius: 40px;
     border: 1px solid #1D2734;
-
-    
+    /*width: 368px;*/
 }
 .portalWrapper--global__header-main--login :global(.vtex-styleguide-9-x-noAppearance)::placeholder{
     
@@ -132,6 +131,98 @@
 .eyeSightIcon--global__header-main--login{
     display: none;
 }
+
+:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-forgotPasswordLink){
+    font-size: 0;
+}
+:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-forgotPasswordLink)::before{
+    content: "Forgot your password?";
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #0C2340;
+}
+:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-forgotPasswordLink)::after{
+    content: " Reset password";
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #E56A54;
+    text-decoration: underline;
+}
+:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-dontHaveAccount){
+    font-size: 0px;
+    display: block;
+}
+:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-dontHaveAccount)::before{
+    content: "Create an account";
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1D2734;
+}
+:global(.vtex-login-2-x-formLinkContainer){
+    justify-content: center;
+}
+
+:global(.vtex-login-2-x-formFooter){
+    border: none;
+}
+:global(.vtex-login-2-x-inputContainerEmail){
+    margin-bottom: 16px;
+
+}
+:global(.vtex-login-2-x-inputContainerPassword){
+    margin-bottom: 16px;
+}
+:global(.vtex-login-2-x-formLinkContainer){
+    margin-bottom: 24px;
+}
+:global(.vtex-login-2-x-formFooter){
+    margin-bottom: 8px;
+}
+/*
+:global(.vtex-login-2-x-emailAndPasswordForm){
+    display: flex;
+    flex-direction: column;
+}
+:global(.vtex-login-2-x-backButton) :global(.vtex-button) {
+    order: -1;
+}*/
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button){
+    background-color: #1D2734;
+    /*width: 368px;*/
+    
+}
+
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button__label) :local(span){
+    font-size: 0;
+}
+:global(.vtex-login-2-x-sendButton) :global(.vtex-button__label)::after{
+    content: "Login";
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 100%;
+    letter-spacing: 0%;
+    text-transform: initial;
+    color: #ffffff;
+}
+
+:global(.vtex-login-2-x-formFooter){
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    
+}
+
 @media (max-width: 1024px){
    .label{
     display: block;
