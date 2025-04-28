@@ -1,9 +1,11 @@
 .label{
-    font-size: 0;
-    padding: 0;
+    display: block;
 }
-.label::after{
-    
+.buttonLink :global(.vtex-button) :global(.vtex-button__label) .label {
+   display: none;
+   font-size: 0 !important;
+}
+.buttonLink :global(.vtex-button) :global(.vtex-button__label)::after{
     content: "Login";
     font-size: 16px;
     text-transform: capitalize;
@@ -11,11 +13,9 @@
     font-family: "Lexend", sans-serif;
     font-weight: 300;
     line-height: 100%;
-    letter-spacing: 0%;
-   
+    letter-spacing: 0%;  
 }
-:global(.vtex-login-2-x-container){
-
+.container{
     height: 40px;
     border-radius: 40px;
     display: flex;
@@ -23,119 +23,11 @@
     background-color: #1D2734;
 }
 
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-customOAuthOptionBtn){
-    display: none;
-}
-
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-formTitle){
-    font-family: "Lexend", sans-serif;
-    font-size: 20px;
-    font-weight: 300;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #0C2340;
-}
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-accessCodeOptionBtn ) :local(button){
-    font-family: "Lexend", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #1D2734;
-    text-transform: none;
-    border: 1px solid #1D2734 ;
-}
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-emailPasswordOptionBtn ) :local(button){
-    
-    font-family: "Lexend", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #1D2734;
-    text-transform: none;
-    border: 1px solid #1D2734 ;
-}
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-emailPasswordOptionBtn ) :local(button)::after{
-    font-family: "Lexend", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #1D2734;
-    text-transform: none;
-    border: 1px solid #1D2734 ;
-}
-.portalWrapper--global__header-main--login :global(.vtex-button){
-    border-radius: 40px;
-    background-color: #f5f4f6;
-}
-
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(button){
-    font-family: "Lexend", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #ffffff;
-    text-transform: none;
-    background-color: #1877F2;
-}
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-googleOptionBtn) :local(button){
-    font-family: "Lexend", sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #5E636E;
-    text-transform: none;
-    border: 1px solid #D7DCE7;
-    background-color: #FFFFFF;
-
-}
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(svg){
-    display: none;
-}
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(button)::before{
-    content: "";
-    width: 24px;
-    height: 24px;
-    background-image: url(/arquivos/logo_facebook.svg);
-    display: inline-block;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
-.portalWrapper--global__header-main--login :global(.vtex-login-2-x-facebookOptionBtn) :local(button){
-
-    display: flex;
-    align-items: center;
-  
-}
-
-.portalWrapper--global__header-main--login :global(.vtex-input-prefix__group){
-    border-radius: 40px;
-    border: 1px solid #1D2734;
-    /*width: 368px;*/
-}
-.portalWrapper--global__header-main--login :global(.vtex-styleguide-9-x-noAppearance)::placeholder{
-    
-    font-family: "Lexend", sans-serif;
-    font-size: 14px;
-    font-weight: 400;
-    line-height: 100%;
-    letter-spacing: 0%;
-    color: #1D2734; 
-}
-
-.eyeSightIcon--global__header-main--login{
-    display: none;
-}
-
-:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-forgotPasswordLink){
+/*iniciar sesion con contraseña y correo*/
+.emailAndPasswordForm .formLinkContainer .forgotPasswordLink{
     font-size: 0;
 }
-:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-forgotPasswordLink)::before{
+.emailAndPasswordForm .formLinkContainer .forgotPasswordLink::before{
     content: "Forgot your password?";
     font-family: "Lexend", sans-serif;
     font-size: 14px;
@@ -144,7 +36,7 @@
     letter-spacing: 0%;
     color: #0C2340;
 }
-:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-forgotPasswordLink)::after{
+.emailAndPasswordForm .formLinkContainer .forgotPasswordLink::after{
     content: " Reset password";
     font-family: "Lexend", sans-serif;
     font-size: 14px;
@@ -154,11 +46,11 @@
     color: #E56A54;
     text-decoration: underline;
 }
-:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-dontHaveAccount){
+.emailAndPasswordForm .formLinkContainer .dontHaveAccount{
     font-size: 0px;
     display: block;
 }
-:global(.vtex-login-2-x-formLinkContainer) :global(.vtex-login-2-x-dontHaveAccount)::before{
+.emailAndPasswordForm .formLinkContainer .dontHaveAccount::before{
     content: "Create an account";
     font-family: "Lexend", sans-serif;
     font-size: 14px;
@@ -167,44 +59,36 @@
     letter-spacing: 0%;
     color: #1D2734;
 }
-:global(.vtex-login-2-x-formLinkContainer){
+.emailAndPasswordForm .formLinkContainer{
     justify-content: center;
 }
-
-:global(.vtex-login-2-x-formFooter){
+.emailAndPasswordForm .formFooter{
     border: none;
 }
-:global(.vtex-login-2-x-inputContainerEmail){
+.emailAndPasswordForm .inputContainerEmail{
     margin-bottom: 16px;
+}
 
-}
-:global(.vtex-login-2-x-inputContainerPassword){
+.emailAndPasswordForm .inputContainerPassword{
     margin-bottom: 16px;
 }
-:global(.vtex-login-2-x-formLinkContainer){
+.emailAndPasswordForm .formLinkContainer{
     margin-bottom: 24px;
 }
-:global(.vtex-login-2-x-formFooter){
+.emailAndPasswordForm .formFooter{
     margin-bottom: 8px;
 }
-/*
-:global(.vtex-login-2-x-emailAndPasswordForm){
-    display: flex;
-    flex-direction: column;
+.emailAndPasswordForm .sendButton :global(.vtex-button){
+    background-color: #1D2734; 
 }
-:global(.vtex-login-2-x-backButton) :global(.vtex-button) {
-    order: -1;
-}*/
-:global(.vtex-login-2-x-sendButton) :global(.vtex-button){
-    background-color: #1D2734;
-    /*width: 368px;*/
-    
+.formFooter .sendButton :global(.vtex-button):hover{
+    transform: scale(1.1); 
+    background-color: #1D2734; 
 }
-
-:global(.vtex-login-2-x-sendButton) :global(.vtex-button__label) :local(span){
+.emailAndPasswordForm .sendButton :global(.vtex-button__label) :local(span){
     font-size: 0;
 }
-:global(.vtex-login-2-x-sendButton) :global(.vtex-button__label)::after{
+.emailAndPasswordForm .sendButton :global(.vtex-button__label)::after{
     content: "Login";
     font-family: "Lexend", sans-serif;
     font-size: 14px;
@@ -214,18 +98,323 @@
     text-transform: initial;
     color: #ffffff;
 }
-
-:global(.vtex-login-2-x-formFooter){
+.emailAndPasswordForm .sendButton :global(.vtex-button){
+    border: 1px solid #1D2734;
+}
+.emailAndPasswordForm .formFooter{
     margin: 0;
     padding: 0;
     display: flex;
     justify-content: center;
+
+}
+/*recuperar clave*/
+.content--beginCreatePass .emailForm .inputContainerEmail{
+    margin-bottom: 16px;
     
 }
 
-@media (max-width: 1024px){
+.content--beginCreatePass .emailForm .formFooter{
+    border: none;
+}
+
+.emailForm .sendButton :global(.vtex-button){
+    background-color: #1D2734;
+    border: 1px solid #1D2734;
+    color: #ffffff;
+}
+.content{
+    width: 423px !important;
+    position: relative;
+    display: flex !important;
+    padding-top: 0 !important;
+}
+.contentForm{
+    min-width: 100% ;
+}
+.backButton{
+    position: absolute;
+    left: 28px;
+    top: 16px;
+}
+.backButton :global(.vtex-button) {
+    background: transparent;
+}
+.backButton :global(.vtex-button__label){
+   display: none;
+}
+.backButton :global(.vtex-button)::after{
+    content: "";
+    display: inline-block;
+    width: 24px;
+    height:24px;
+    background-image: url("/arquivos/back.svg");
+    background-repeat: no-repeat;    
+    background-position: center;
+}
+.sendButton{
+    margin: 0;
+    width: 100% !important;
+}
+.sendButton :global(.vtex-button){
+    width: 100%;
+}
+
+/*reset your password*/
+
+.content--recoveryPassword .forgotPasswordForm .formSubtitle{
+    font-size: 0;
+    margin-top: 8px;
+    margin-bottom: 16px;
+}
+.content--recoveryPassword .forgotPasswordForm .formSubtitle::after{
+    display: inline-block;
+    content: "Create a new password";
+    font-family: "Lexend", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #5E636E;
+}
+.content--recoveryPassword .forgotPasswordForm .formTitle{
+    font-size: 0;
+}
+.content--recoveryPassword .forgotPasswordForm .formTitle::before{
+
+    display: inline-block;
+    margin-top: 16px;
+    content: "RESET YOUR PASSWORD";
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #1D2734;
+}
+.loginOptionsContainer{
+    margin-left: 28px;
+    margin-right: 27px;
+    border: 3px solid green;
+}
+/*reste your password*/
+.content--recoveryPassword .forgotPasswordForm .inputContainerPassword :global(.pa2) :global(.mt2) :global(.c-danger){
+    color: #1D2734;
+}
+.content--recoveryPassword .forgotPasswordForm .formFooter{
+    border: none;
+}
+.content--recoveryPassword .forgotPasswordForm .formFooter .sendButton :global(.vtex-button) {
+    background: #1D2734;
+    border: 1px solid #1D2734;
+   
+}
+
+
+
+
+.contentFormVisible .loginOptionsContainer .options .optionsList{
+    display: flex;
+    flex-direction: column;
+}/*
+.contentFormVisible .loginOptionsContainer .options .optionsList .optionsListItem .emailPasswordOptionBtn{
+    order: -1;
+    
+}
+.contentFormVisible .loginOptionsContainer .options .optionsList .optionsListItem .accessCodeOptionBtn{
+    order: -2;
+    
+}*/
+
+/*MY ACCOUNT*/
+
+.content--accountOptions{
+    border: 1px solid blue;
+    width: 423px !important;
+    height: auto !important;
+    padding-left: 0;
+    padding-right: 0;
+}
+
+.content--accountOptions .accountOptions .accountOptionsSectionTitle{
+    font-size: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.content--accountOptions .accountOptions .accountOptionsSectionTitle::after{
+    display: inline-block;
+    content: "MY ACCOUNT";
+    font-family: "Lexend", sans-serif;
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #0C2340;
+
+}
+
+
+@media (min-width: 1024px){
    .label{
-    display: block;
+        font-size: 0;
+        padding: 0;
    }
+   .label::after{
+        content: "Login";
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #FFFFFF;  
+        font-family: "Lexend", sans-serif;
+        font-weight: 300;
+        line-height: 100%;
+        letter-spacing: 0%;  
+    }
+    .portalWrapper--global__header-main--login .customOAuthOptionBtn{
+        display: none;
+    }
+    .portalWrapper--global__header-main--login .formTitle{
+        font-family: "Lexend", sans-serif;
+        font-size: 20px;
+        font-weight: 300;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #0C2340;
+        
+    }
+    .portalWrapper--global__header-main--login .accessCodeOptionBtn :local(button){
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1D2734;
+        text-transform: none;
+        border: 1px solid #1D2734 ;
+    }
+    .portalWrapper--global__header-main--login .emailPasswordOptionBtn :local(button){
+        
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1D2734;
+        text-transform: none;
+        border: 1px solid #1D2734 ;
+    }
+    .portalWrapper--global__header-main--login .emailPasswordOptionBtn :local(button)::after{
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1D2734;
+        text-transform: none;
+        border: 1px solid #1D2734 ;
+    }
+    .portalWrapper--global__header-main--login :global(.vtex-button){
+        border-radius: 40px;
+        background-color: #f5f4f6;
+        
+    }
+    .portalWrapper--global__header-main--login .facebookOptionBtn :local(button){
+        font-family: "Lexend", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #ffffff;
+        text-transform: none;
+        background-color: #1877F2;
+    }
+    .portalWrapper--global__header-main--login .googleOptionBtn :local(button){
+        font-family: "Lexend", sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #5E636E;
+        text-transform: none;
+        border: 1px solid #D7DCE7;
+        background-color: #FFFFFF;
+    }
+    .portalWrapper--global__header-main--login .facebookOptionBtn :local(svg){
+        display: none;
+    }
+    .portalWrapper--global__header-main--login .facebookOptionBtn :local(button)::before{
+        content: "";
+        width: 24px;
+        height: 24px;
+        background-image: url(/arquivos/logo_facebook.svg);
+        display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: 100%;
+    }
+    .portalWrapper--global__header-main--login .facebookOptionBtn :local(button){
+    
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      
+    }
+    .facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label){
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .facebookOptionBtn :global(.vtex-button) :global(.vtex-button__label) .oauthLabel{
+        margin-left: 12px;
+    }
+    .portalWrapper--global__header-main--login :global(.vtex-input-prefix__group){
+        border-radius: 40px;
+        border: 1px solid #1D2734;
+        /*width: 368px;*/
+    }
+    .portalWrapper--global__header-main--login :global(.vtex-styleguide-9-x-noAppearance)::placeholder{
+        
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1D2734; 
+    }
+    .emailAndPasswordForm .eyeSightIcon--global__header-main--login{
+        display: none;
+    }
+    .loginOptionsContainer{
+        margin-left: 28px;
+        margin-right: 27px;
+
+    }
+    .emailPasswordOptionBtn :global(.vtex-button) :global(.vtex-button__label) :local(span){
+        font-size: 0;
+    }
+    .emailPasswordOptionBtn :global(.vtex-button) :global(.vtex-button__label)::after{
+        display: inline-block;
+        content: "Continue with an e-mail and password";
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1D2734;
+    }
+    .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label) :local(span){
+        font-size: 0;
+    }
+    
+    .accessCodeOptionBtn :global(.vtex-button) :global(.vtex-button__label)::after{
+        display: inline-block;
+        content: "Receive access code by email";
+        font-family: "Lexend", sans-serif;
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #1D2734;
+    }
 }
 

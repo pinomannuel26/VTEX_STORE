@@ -3,11 +3,33 @@
         "props": {
           "optionsTitle": "LOG-IN",
           "emailAndPasswordTitle": "LOG-IN",
-          "accessCodeTitle": "RECUPERAR CLAVE",
+          "accessCodeTitle": "VERIFY YOUR E-MAIL",
           "emailPlaceholder": "Enter your e-mail",
           "passwordPlaceholder": "Enter your password",
           "showPasswordVerificationIntoTooltip": true,
-          "blockClass":"global__header-main--login"
+          "blockClass":"global__header-main--login",
+          "accountOptionLinks": [
+            {
+              "label": "Profile",
+              "path": "/accound"
+            },
+            {
+              "label": "Addresses",
+              "path": "/accound/#/addresses"
+            },
+            {
+              "label": "Orders",
+              "path": "/accound/#/orders"
+            },
+            {
+              "label": "Credit cards",
+              "path": "/accound/#/cards"
+            },
+            {
+              "label": "Authentication",
+              "path": "/accound/#/authentication"
+            }
+          ]
         }
       }
 }

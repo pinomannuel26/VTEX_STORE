@@ -33,15 +33,16 @@
     background-size: 100%;
 }
 
-:global(.vtex-minicart-2-x-overlay--visible){
-    backdrop-filter: blur(20px);             
-    -webkit-backdrop-filter: blur(20px);     
-    background-color: rgba(219, 220, 223, 0.6);
+.overlay--visible{
+    backdrop-filter: blur(12px);             
+    -webkit-backdrop-filter: blur(12px);     
+    background-color: #1D27341A;
+    opacity: 0.9 !important;
 }
 
 /*Style mobile*/
 @media (max-width: 1024px) {
-    :global(.vtex-minicart-2-x-closeIconContainer){
+    .closeIconContainer{
         max-width: none;
     }
 }
