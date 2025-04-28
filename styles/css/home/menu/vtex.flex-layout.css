@@ -132,6 +132,23 @@
     .flexRowContent--mobile__header--menu :global(.vtex-store-drawer-0-x-openIconContainer){
         padding: 0;
     }
+
+    .flexRowContent--main-header-mobile:first-child{
+        min-width: 100% !important; 
+    }
+
+    .flexRow--mobile__header--menu{
+        width: 100vw !important;
+    }
+    .flexCol--mobile__header-menu--wrapperCol-cartItemsLogin{
+        padding-right: 20px;
+    }
+
+    .flexCol--mobile__header-main--wrapperCol-logos{
+        padding-left: 10px;
+    }
+
+    
 }   
 
 @media (max-width: 767px) {
@@ -142,4 +159,5 @@
         gap: 0;
     }
    
+
 }

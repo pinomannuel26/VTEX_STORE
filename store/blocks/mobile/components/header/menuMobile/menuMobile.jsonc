@@ -18,7 +18,12 @@
         "title": "container logos menu of home mobile",
         "children": [
           "flex-layout.row#mobile__header-menu--wrapperRow-logos"
-        ]
+        ],
+        "props": {
+          "blockClass":[
+            "mobile__header-main--wrapperCol-logos"
+          ]
+        }
 
       },
       "flex-layout.col#mobile__header-menu--wrapperCol-cartItemsLogin":{

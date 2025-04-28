@@ -40,9 +40,21 @@
     opacity: 0.9 !important;
 }
 
-/*Style mobile*/
+/*
+.flexColChild--global__wrapper--product-image :local([class*="swiper-wrapper"])::-webkit-scrollbar{
+        display: none;
+    }
+*/
+
+.minicartProductListContainer::-webkit-scrollbar-thumb{
+    background: #BEBEBE;
+}
+.minicartProductListContainer::-webkit-scrollbar-track{
+    background: #F2F2F2;
+}
 @media (max-width: 1024px) {
     .closeIconContainer{
         max-width: none;
     }
 }
+
